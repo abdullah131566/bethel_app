@@ -1,0 +1,279 @@
+.padding-inline40 {
+  padding-inline: 40px;
+}
+.section {
+  padding-block: 50px;
+  padding-inline: max(30px, 6vw);
+}
+
+/* header specific */
+.header {
+}
+.logo {
+  margin-right: 35px;
+  font-family: 'Satisfy';
+  font-size: 25px;
+}
+.nav-list {
+  gap: 22px;
+  font-size: small;
+}
+.header-search-btn {
+  width: 20px;
+  height: 20px;
+  background: url(../source/search_icon.png) no-repeat center/cover;
+}
+.header-search-btn:hover {
+  width: 21px;
+  height: 21px;
+}
+.hamburger {
+  display: none;
+  width: 24px;
+  height: 15px;
+}
+.hamburger > .bar{
+  display: inline-block;
+  width: 100%;
+  height: 3px;
+  background-color: white;
+}
+@keyframes scaleDown {
+  from{
+    transform: scale(0);
+  }
+  to{
+    transform: scale(1);
+  }
+}
+.scale-down{
+  animation: 0.4s linear 0s 1 normal both scaleDown;
+}
+@media screen and (max-width: 830px) {
+  .header-search-btn{
+    display: none;
+  }
+  .hamburger{
+    display: flex;
+  }
+  .nav-list.active{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+  }
+}
+
+/* footer stuff */
+.footer-div {
+  display: grid;
+  /* grid-template-columns: minmax(200px, 5fr) 3fr 3fr 3fr 2fr; */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 80px;
+  padding-block: 60px;
+}
+.footer-card > h4 {
+  letter-spacing: 0.12em;
+  margin-bottom: 20px;
+  font-size: larger;
+}
+
+.about-text {
+  width: 80%;
+}
+
+.footer-card-list > li {
+  margin-bottom: 18px;
+}
+
+.copyright-mark {
+  padding-block: 60px;
+}
+
+/* hero section */
+.hero-section {
+  background: url(../source/herobg.jpeg) no-repeat center/cover;
+  height: 100vh;
+}
+.hero-section .verse {
+  font-size: max(5vw, 40px);
+}
+
+/* vision statement section */
+.vision-statement-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  align-items: center;
+}
+.vision-statement > h2 {
+  font-size: 40px;
+}
+.vision-statement > p {
+  padding-top: 14px;
+  padding-bottom: 24px;
+}
+
+/* ministreis sction */
+.ministries-section .heading {
+  padding-top: 34px;
+  font-size: 25px;
+  font-weight: 400;
+}
+.ministries-section .quote {
+  padding-top: max(280px, min(30vw, 310px));
+  padding-bottom: 24px;
+  font-size: min(45px, max(4vw, 30px));
+  font-weight: 400;
+}
+.ministries-section .img {
+  width: min(400px, max(45vw, 200px));
+  height: min(400px, max(45vw, 200px));
+  /* top: max(25px, 2vw); */
+  border-radius: 100vh;
+}
+.ministries-section .images-subsection {
+  display: grid;
+  grid-template-columns: repeat(auto, minmax(200px, 1fr));
+}
+.ministries-section .img1 {
+  right: min(380px, 35vw);
+}
+.ministries-section .img2 {
+  right: min(80px, 5vw);
+}
+@media screen and (max-width: 650px) {
+  .ministries-section .heading {
+    padding-bottom: 54px;
+  }
+  .ministries-section .img1 {
+    right: auto;
+    left: 0;
+  }
+  .ministries-section .img2 {
+    right: auto;
+    left: 130px;
+  }
+}
+.ministries-section .img:nth-of-type(1) {
+  background: url(../source/ministries1.jpeg) no-repeat center/cover;
+}
+.ministries-section .img:nth-of-type(2) {
+  background: url(../source/ministries2.jpeg) no-repeat center/cover;
+}
+
+/* what we do section */
+.whatwedo-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 50px;
+  align-items: center;
+}
+.whatwedo-section .img {
+  width: min(300px, 90vw);
+  height: min(500px, 90vw);
+  place-self: center;
+  background: url(../source/whatwedo_img.PNG) no-repeat center/cover;
+}
+.whatwedo-section > sub {
+  align-self: stretch;
+}
+.whatwedo-section > sub > * {
+  margin-bottom: 30px;
+}
+.whatwedo-section > sub > .heading {
+  font-size: 45px;
+  margin-top: 90px;
+}
+.whatwedo-section .btn-group button {
+  margin-right: 45px;
+  margin-bottom: 15px;
+}
+.whatwedo-section .btn-group button .arrow {
+  margin-left: 32px;
+}
+
+/* vision behind bethel section */
+.visionbehindbethel-section {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 40px;
+}
+@media screen and (max-width: 900px) {
+  .visionbehindbethel-section {
+    display: block;
+  }
+  .visionbehindbethel-section > .img {
+    width: 100%;
+  }
+}
+.visionbehindbethel-section > sub > .heading {
+  font-size: 45px;
+}
+.visionbehindbethel-section > sub > * {
+  margin-bottom: 25px;
+}
+.visionbehindbethel-section > .img {
+  width: 350px;
+  height: 450px;
+  background: url(../source/ceos_img.jpeg) no-repeat center/cover;
+}
+.visionbehindbethel-section > .img > .img-title {
+  bottom: -20px;
+  transform: translateX(20%);
+}
+
+/* statement of faith- */
+.statementoffaith-section {
+  background: linear-gradient(
+    81deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 32%,
+    rgba(120, 0, 0, 1) 45%,
+    rgba(180, 5, 5, 1) 52%,
+    rgba(0, 0, 0, 1) 64%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.statementoffaith-section > .heading {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.statementoffaith-section li {
+  margin-bottom: 14px;
+}
+
+/* empoweringchurch-section */
+.empoweringchurch-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  align-items: center;
+}
+.empoweringchurch > h2 {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.empoweringchurch > p {
+  padding-top: 14px;
+  padding-bottom: 40px;
+  width: 70%;
+}
+/* ouroffice-section */
+.ouroffice-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  align-items: center;
+}
+.ouroffice > h2 {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.ouroffice > p {
+  padding-top: 14px;
+  padding-bottom: 40px;
+  width: 70%;
+}

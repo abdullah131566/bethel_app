@@ -1,0 +1,135 @@
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-align-center {
+  align-items: center;
+}
+.flex-justify-center {
+  justify-content: center;
+}
+.flex-justify-sb {
+  justify-content: space-between;
+}
+
+/* margins and position stuff */
+.margin-auto {
+  margin-inline: auto;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.isolate {
+  isolation: isolate;
+}
+.btn-paddings {
+  padding-inline: 1.2em;
+  padding-block: 0.65em;
+}
+
+/* font stuff */
+.font-weight-light {
+  font-weight: 400;
+}
+.font-size-small {
+  font-size: small;
+}
+.font-size-large {
+  font-size: large;
+}
+
+/* colors */
+.theme-bg-dark {
+  background-color: var(--color-dark);
+  color: var(--color-text);
+}
+.theme-bg-light {
+  background-color: var(--color-text);
+  color: var(--color-dark);
+}
+.theme-bg-dim {
+  background-color: var(--color-dim);
+  color: var(--color-dark);
+}
+.transparent-bg {
+  background-color: transparent;
+}
+.color-text {
+  color: var(--color-text);
+}
+.color-dim {
+  color: var(--color-dim);
+}
+.to-light-bg:hover {
+  background-color: var(--color-text);
+  color: var(--color-dark);
+}
+.to-dark-bg:hover {
+  background-color: var(--color-dark);
+  color: var(--color-text);
+}
+
+/* border-stuff */
+.no-border {
+  border: 0;
+}
+.no-outline {
+  outline: none;
+}
+.border1-light {
+  border: 1px solid var(--color-text);
+}
+.border1-dark {
+  border: 1px solid var(--color-dark);
+}
+
+/* width and height stuff */
+.full-widthnheight {
+  width: 100%;
+  height: 100%;
+}
+.full-width {
+  width: 100%;
+}
+.fit-content {
+  width: fit-content;
+}
+
+/* pointers stuff */
+.pointer {
+  cursor: pointer;
+}
+
+/* for anims */
+.smooth-transition {
+  transition: all 0.2s ease-out;
+}
+
+@keyframes lazyAppear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.lazy-appear0{
+  animation: 0.4s linear 0s lazyAppear;
+}
+.lazy-appear1{
+  animation: 0.4s linear 0.2s 1 normal both lazyAppear;
+}
+.lazy-appear2{
+  animation: 0.4s linear 0.4s 1 normal both lazyAppear;
+}
+.lazy-appear3{
+  animation: 0.4s linear 0.6s 1 normal both lazyAppear;
+}
+.lazy-appear4{
+  animation: 0.4s linear 0.8s 1 normal both lazyAppear;
+}
