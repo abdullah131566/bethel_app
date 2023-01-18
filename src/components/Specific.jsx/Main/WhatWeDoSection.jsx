@@ -1,9 +1,21 @@
 import React from "react";
+import img1 from "@/source/whatwedo_img1.jpeg"
+import img2 from "@/source/whatwedo_img2.jpeg"
+import img3 from "@/source/whatwedo_img3.jpeg"
+import img4 from "@/source/whatwedo_img4.jpeg"
+import ImageSlider from "@/components/General/ImageSlider";
 
 const WhatWeDoSection = () => {
   return (
     <section className="section whatwedo-section">
-      <div className="img"></div>
+      <div className="img">
+        <ImageSlider time={3500} transitionDuration={"1s"}>
+          <img src={img1.src} alt="" />
+          <img src={img2.src} alt="" />
+          <img src={img3.src} alt="" />
+          <img src={img4.src} alt="" />
+        </ImageSlider>
+      </div>
       <sub className="relative">
         <h5 className="about relative">ABOUT</h5>
         <h2 className="heading">What we do?</h2>

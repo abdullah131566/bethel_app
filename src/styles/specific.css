@@ -189,10 +189,9 @@
   align-items: center;
 }
 .whatwedo-section .img {
-  width: min(300px, 90vw);
+  width: min(500px, 90vw);
   height: min(500px, 90vw);
   place-self: center;
-  background: url(../source/whatwedo_img.PNG) no-repeat center/cover;
 }
 .whatwedo-section > sub {
   align-self: stretch;
