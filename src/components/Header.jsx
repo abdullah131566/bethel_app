@@ -23,16 +23,16 @@ const Header = () => {
             <Link href="/events">Events</Link>
           </li>
           <li className="nav-item lazy-appear1">
-            <Link href="#">Founder&apos;s blog</Link>
+            <Link href="/blogs">Founder&apos;s blog</Link>
           </li>
           <li className="nav-item lazy-appear2">
-            <Link href="#">Volunteer & Donate</Link>
+            <Link href="/donate">Volunteer & Donate</Link>
           </li>
           <li className="nav-item lazy-appear3">
-            <Link href="#">Board of directors</Link>
+            <Link href="/directors-board">Board of directors</Link>
           </li>
           <li className="nav-item lazy-appear4">
-            <Link href="#">Contact Us</Link>
+            <Link href="/contact">Contact Us</Link>
           </li>
         </ul>
       </nav>
