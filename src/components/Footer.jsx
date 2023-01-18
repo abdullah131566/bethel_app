@@ -13,7 +13,7 @@ const Footer = () => {
         <FooterMore className="footer-card" />
         <FooterSocial className="footer-card" />
       </div>
-      <h5 className="copyright-mark color-dim font-weight-light fit-content margin-auto">&#169;  Bethel.com. All Rights Reserved</h5>
+      <h5 className="copyright-mark color-dim font-weight-light fit-content margin-auto">&#169;  bethelpk.org. All Rights Reserved</h5>
     </footer>
   );
 };
