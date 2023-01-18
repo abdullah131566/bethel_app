@@ -3,10 +3,17 @@ import Link from "next/link";
 
 const Header = () => {
   const navListRef = useRef(null);
+  const hamburgerRef = useRef(null);
   const hamburgerClickHandler = (e) => {
-    if ("active" in navListRef.current.classList)
+    if (navListRef.current.classList.contains("active")) {
       navListRef.current.classList.remove("active");
-    else navListRef.current.classList.add("active");
+      navListRef.current.classList.remove("scale-down");
+      hamburgerRef.current.classList.remove("to-cross");
+    } else {
+      navListRef.current.classList.add("active");
+      navListRef.current.classList.add("scale-down");
+      hamburgerRef.current.classList.add("to-cross");
+    }
   };
   return (
     <header className="header relative padding-inline40 theme-bg-dark full-widthnheight flex flex-align-center flex-justify-sb">
@@ -38,6 +45,7 @@ const Header = () => {
       </nav>
       <div
         className="hamburger flex-column flex-justify-sb pointer"
+        ref={hamburgerRef}
         onClick={hamburgerClickHandler}
       >
         <span className="bar"></span>

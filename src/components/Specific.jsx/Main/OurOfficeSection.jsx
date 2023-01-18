@@ -19,7 +19,7 @@ const OurOfficeSection = () => {
         </button>
       </div>
       <div className="image-container">
-        <Image className="full-width" src={img.src} alt="" />
+        <img className="full-width" src={img.src} alt="" />
       </div>
     </section>
   );

@@ -11,7 +11,7 @@
 }
 .logo {
   margin-right: 35px;
-  font-family: 'Satisfy';
+  font-family: "Satisfy";
   font-size: 25px;
 }
 .nav-list {
@@ -32,35 +32,52 @@
   width: 24px;
   height: 15px;
 }
-.hamburger > .bar{
+.hamburger > .bar {
   display: inline-block;
   width: 100%;
   height: 3px;
   background-color: white;
+  transition: transform 0.2s ease;
 }
 @keyframes scaleDown {
-  from{
+  from {
     transform: scale(0);
   }
-  to{
+  to {
     transform: scale(1);
   }
 }
-.scale-down{
-  animation: 0.4s linear 0s 1 normal both scaleDown;
+.scale-down {
+  transform-origin: top center;
+  animation: 0.15s ease-out 0s 1 normal both scaleDown;
 }
 @media screen and (max-width: 830px) {
-  .header-search-btn{
+  .header-search-btn {
     display: none;
   }
-  .hamburger{
+  .hamburger {
     display: flex;
+    width: 20px;
   }
-  .nav-list.active{
+  .hamburger.to-cross > .bar:nth-of-type(2) {
+    display: none;
+  }
+  .hamburger.to-cross > .bar:nth-of-type(1) {
+    transform: rotateZ(36deg);
+    transform-origin: top left;
+  }
+  .hamburger.to-cross > .bar:nth-of-type(3) {
+    transform: rotateZ(-36deg);
+    transform-origin: top left;
+  }
+  .nav-list {
     position: absolute;
-    top: 100%;
+    top: -100%;
     right: 0;
     left: 0;
+  }
+  .nav-list.active {
+    top: 100%;
     display: flex;
     flex-direction: column;
     padding-bottom: 15px;
