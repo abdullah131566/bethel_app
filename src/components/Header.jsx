@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import Link from "next/link";
 
 const Header = () => {
   const navListRef = useRef(null);
@@ -11,7 +12,7 @@ const Header = () => {
     <header className="header relative padding-inline40 theme-bg-dark full-widthnheight flex flex-align-center flex-justify-sb">
       <nav className="flex">
         <div className="logo">
-          <a href="/">Bethel</a>
+          <Link href="/">Bethel</Link>
         </div>
 
         <ul
@@ -19,19 +20,19 @@ const Header = () => {
           ref={navListRef}
         >
           <li className="nav-item lazy-appear0">
-            <a href="/events">Events</a>
+            <Link href="/events">Events</Link>
           </li>
           <li className="nav-item lazy-appear1">
-            <a href="#">Founder's blog</a>
+            <Link href="#">Founder&apos;s blog</Link>
           </li>
           <li className="nav-item lazy-appear2">
-            <a href="#">Volunteer & Donate</a>
+            <Link href="#">Volunteer & Donate</Link>
           </li>
           <li className="nav-item lazy-appear3">
-            <a href="#">Board of directors</a>
+            <Link href="#">Board of directors</Link>
           </li>
           <li className="nav-item lazy-appear4">
-            <a href="#">Contact Us</a>
+            <Link href="#">Contact Us</Link>
           </li>
         </ul>
       </nav>

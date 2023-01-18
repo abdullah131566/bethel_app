@@ -26,10 +26,10 @@ const VisionBehindBethelSection = () => {
           BEO has 15 team members who work in Sind, South Punjab and Punjab and
           they get regular monthly support. BEO works in the following areas:
           Missions and Evangelistic outreaches, Church Planting, Leadership
-          Training, Family Life, Women's Ministry, Bible & Literature Ministry,
-          Relief Work and Youth Ministry. They registered BEO with the Punjab
-          government in 2019 and have an official bank account. Their regular
-          activities include annual camps, seminars, training programs,
+          Training, Family Life, Women&apos;s Ministry, Bible & Literature
+          Ministry, Relief Work and Youth Ministry. They registered BEO with the
+          Punjab government in 2019 and have an official bank account. Their
+          regular activities include annual camps, seminars, training programs,
           counseling seminars and family life seminars.
         </p>
       </sub>

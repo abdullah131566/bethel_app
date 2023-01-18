@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import img from "../../../source/ouroffice_img.jpeg";
 
 const OurOfficeSection = () => {
@@ -18,7 +19,7 @@ const OurOfficeSection = () => {
         </button>
       </div>
       <div className="image-container">
-        <img className="full-width" src={img.src} alt="" />
+        <Image className="full-width" src={img.src} alt="" />
       </div>
     </section>
   );
