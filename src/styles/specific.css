@@ -203,11 +203,12 @@
   font-size: 45px;
   margin-top: 90px;
 }
-.whatwedo-section .btn-group button {
+.whatwedo-section .btn-group a {
+  display: inline-block;
   margin-right: 45px;
   margin-bottom: 15px;
 }
-.whatwedo-section .btn-group button .arrow {
+.whatwedo-section .btn-group a .arrow {
   margin-left: 32px;
 }
 

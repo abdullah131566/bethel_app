@@ -13,9 +13,9 @@ const VisionStatementSection = () => {
           message. To help Christian marriage and families become spiritually
           strong through clear Biblical teaching and counseling.
         </p>
-        <button className="btn-paddings theme-bg-dark to-light-bg border1-dark smooth-transition no-outline pointer">
+        <a href="/vision-statement" className="btn-paddings theme-bg-dark to-light-bg border1-dark smooth-transition no-outline pointer">
           Read More
-        </button>
+        </a>
       </div>
       <div className="image-container">
         <img className="full-width" src={img.src} alt="" />

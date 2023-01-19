@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import img from "../../../source/empoweringchurch_img.jpeg";
 
 const EmpoweringChurchSection = () => {
@@ -11,9 +10,9 @@ const EmpoweringChurchSection = () => {
           Fostering the talents within the church to aid in the growth and
           expansion of the Kingdom of Our Lord Jesus Christ
         </p>
-        <button className="btn-paddings theme-bg-light to-dark-bg border1-light smooth-transition no-outline pointer">
+        <a href="/church-works" className="btn-paddings theme-bg-light to-dark-bg border1-light smooth-transition no-outline pointer">
           Learn More
-        </button>
+        </a>
       </div>
       <div className="image-container">
         <img className="full-width" src={img.src} alt=""/>

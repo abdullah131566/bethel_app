@@ -25,27 +25,27 @@ const WhatWeDoSection = () => {
           better as a result.
         </p>
         <div className="btn-group">
-          <button className="btn-paddings theme-bg-dark to-light-bg border1-dark smooth-transition no-outline pointer">
+          <a href="/camps" className="btn-paddings theme-bg-dark to-light-bg border1-dark smooth-transition no-outline pointer">
             Camps
             <span className="arrow">&#8594;</span>
-          </button>
-          <button className="btn-paddings theme-bg-light to-dark-bg border1-dark smooth-transition no-outline pointer">
+          </a>
+          <a href="/relief" className="btn-paddings theme-bg-light to-dark-bg border1-dark smooth-transition no-outline pointer">
             Relief
             <span className="arrow">&#8594;</span>
-          </button>
-          <button className="btn-paddings theme-bg-light to-dark-bg border1-dark smooth-transition no-outline pointer">
+          </a>
+          <a href="/persecution" className="btn-paddings theme-bg-light to-dark-bg border1-dark smooth-transition no-outline pointer">
             Persecution
             <span className="arrow">&#8594;</span>
-          </button>
+          </a>
           <br />
-          <button className="btn-paddings theme-bg-light to-dark-bg border1-dark smooth-transition no-outline pointer">
+          <a href="/food-distribution" className="btn-paddings theme-bg-light to-dark-bg border1-dark smooth-transition no-outline pointer">
             Food Distribution
             <span className="arrow">&#8594;</span>
-          </button>
-          <button className="btn-paddings theme-bg-light to-dark-bg border1-dark smooth-transition no-outline pointer">
+          </a>
+          <a href="/evangelism" className="btn-paddings theme-bg-light to-dark-bg border1-dark smooth-transition no-outline pointer">
             Evangelism
             <span className="arrow">&#8594;</span>
-          </button>
+          </a>
         </div>
       </sub>
     </section>

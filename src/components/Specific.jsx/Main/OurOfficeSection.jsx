@@ -14,9 +14,9 @@ const OurOfficeSection = () => {
           Rawalpindi serves as a platform for us to fulfill our mission of
           bringing the kingdom and will of God to Earth.
         </p>
-        <button className="btn-paddings theme-bg-dark to-light-bg border1-dark smooth-transition no-outline pointer">
+        <a href="/office" className="btn-paddings theme-bg-dark to-light-bg border1-dark smooth-transition no-outline pointer">
           Learn More
-        </button>
+        </a>
       </div>
       <div className="image-container">
         <img className="full-width" src={img.src} alt="" />
