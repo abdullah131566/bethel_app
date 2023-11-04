@@ -137,3 +137,11 @@
 .lazy-appear4{
   animation: 0.4s linear 0.8s 1 normal both lazyAppear;
 }
+
+.lazy-appear5{
+  animation: 0.4s linear 1.0s 1 normal both lazyAppear;
+}
+
+.lazy-appear6{
+  animation: 0.4s linear 1.2s 1 normal both lazyAppear;
+}
