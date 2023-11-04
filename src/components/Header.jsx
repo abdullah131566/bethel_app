@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import Link from "next/link";
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Header = () => {
   const navListRef = useRef(null);
@@ -26,23 +27,37 @@ const Header = () => {
           className="nav-list theme-bg-dark flex flex-align-center flex-justify-center"
           ref={navListRef}
         >
-          <li className="nav-item lazy-appear0">
-            <Link href="/events">Events</Link>
+          <li className="nav-item lazy-appear0 hover-underline-animation">
+            <p>Missions & Evangelism</p>
+            <div className="dropdown lazy-appear1">
+              <div className="column">
+                <h3 className="color-dim">Events</h3>
+                <Link className="hover-underline-animation" href="/about-us">Local</Link>
+                <Link className="hover-underline-animation" href="/aboutUs">Global</Link>
+              </div>
+            </div>
           </li>
-          <li className="nav-item lazy-appear1">
-            <Link href="/blogs">Founder&apos;s blog</Link>
+          <li className="nav-item lazy-appear1 hover-underline-animation">
+            <Link href="/church-planting">Church planting</Link>
           </li>
-          <li className="nav-item lazy-appear2">
-            <Link href="/donate">Volunteer & Donate</Link>
+          <li className="nav-item lazy-appear2 hover-underline-animation">
+            <Link href="/leadership-development">Leadership Development</Link>
           </li>
-          <li className="nav-item lazy-appear3">
-            <Link href="/directors-board">Board of directors</Link>
+          <li className="nav-item lazy-appear3 hover-underline-animation">
+            <Link href="/women-ministry">Women Ministry</Link>
           </li>
-          <li className="nav-item lazy-appear4">
-            <Link href="/contact">Contact Us</Link>
+          <li className="nav-item lazy-appear4 hover-underline-animation">
+            <Link href="/family-life">Family life</Link>
+          </li>
+          <li className="nav-item lazy-appear5 hover-underline-animation">
+            <Link href="/contact">Compassion & Relief</Link>
+          </li>
+          <li className="nav-item lazy-appear6 hover-underline-animation">
+            <Link href="/contact">Compassion & Relief</Link>
           </li>
         </ul>
       </nav>
+
       <div
         className="hamburger flex-column flex-justify-sb pointer"
         ref={hamburgerRef}
