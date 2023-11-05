@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:700");
+
+.animated-wrapper {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  margin: 0;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.animated-heading {
+  font-size: 48px;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Open Sans";
+
+  color: white;
+  text-align: center;
+}
+
+.animated-p {
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.3),
+    0 0 3px rgba(255, 255, 255, 0.3);
+  color: white;
+  margin: 0; /* Prevent default margins */
+}
+
+.animated-container {
+  font-size: 2.26rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animation {
+  height: 50px;
+  overflow: hidden;
+  margin-left: 1rem;
+}
+
+.animation > div > div {
+  /* padding: 0.25rem 0.75rem; */
+  height: 2.81rem; /* Control the height of the text lines */
+  margin-bottom: 2.81rem; /* Should be equal to or more than height to prevent overlap */
+  display: inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+}
+
+.first div {
+  color: #20a7d8;
+}
+
+.second div {
+  color: #cd921e;
+}
+
+.third div {
+  color: #c10528;
+}
+
+.fourth div {
+  color: #20a7d8;
+}
+.fifth div {
+  color: #cd921e;
+}
+
+@keyframes text-animation {
+  0%,
+  100% {
+    margin-top: 0;
+  }
+  5%,
+  25% {
+    margin-top: 0;
+  }
+  20%,
+  30% {
+    margin-top: -5.62rem;
+  } /* Move up by 1 item */
+  35%,
+  45% {
+    margin-top: -11.24rem;
+  } /* Move up by 2 items */
+  50%,
+  60% {
+    margin-top: -16.86rem;
+  } /* Move up by 3 items */
+  65%,
+  75% {
+    margin-top: -22.48rem;
+  } /* Move up by 4 items */
+  80%,
+  90% {
+    margin-top: -28.1rem;
+  } /* Move up by 5 items */
+}
+
+.local-main-wrapper {
+  background-color: white;
+  padding: 0px !important;
+}
+
+.local-wrapper1 {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* This is needed to position the pseudo-element relative to the .local-wrapper */
+  overflow: hidden; /* This ensures the pseudo-element doesn't extend outside the div */
+}
+
+.local-wrapper1::after {
+  background-color: white;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20%; /* This controls the height of the tilted effect */
+  transform: skewY(-5deg); /* Adjust the angle as needed */
+  transform-origin: 100%; /* This sets the origin of the transform to the right side */
+}
+
+.local-wrapper2 {
+  background-color: white;
+  height: 100vh;
+  position: relative; /* This is needed to position the pseudo-element relative to the .local-wrapper */
+  overflow: hidden; /* This ensures the pseudo-element doesn't extend outside the div */
+}
+.local-wrapper2::after {
+  background-color: black;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20%; /* This controls the height of the tilted effect */
+  transform: skewY(-5deg); /* Adjust the angle as needed */
+  transform-origin: 100%; /* This sets the origin of the transform to the right side */
+}
+
+.local-wrapper3 {
+  background-color: black;
+  height: 100vh;
+  position: relative; /* This is needed to position the pseudo-element relative to the .local-wrapper */
+  overflow: hidden; /* This ensures the pseudo-element doesn't extend outside the div */
+}
+.local-wrapper3::after {
+  background-color: white;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20%; /* This controls the height of the tilted effect */
+  transform: skewY(-5deg); /* Adjust the angle as needed */
+  transform-origin: 100%; /* This sets the origin of the transform to the right side */
+}
+
+.local-wrapper-final {
+  background-color: black;
+  height: 100vh;
+  position: relative; /* This is needed to position the pseudo-element relative to the .local-wrapper */
+  overflow: hidden; /* This ensures the pseudo-element doesn't extend outside the div */
+}
+.local-wrapper-final::after {
+  background-color: black;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20%; /* This controls the height of the tilted effect */
+  transform: skewY(-5deg); /* Adjust the angle as needed */
+  transform-origin: 100%; /* This sets the origin of the transform to the right side */
+}
+
+.local-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.local-col1 {
+  height: 60vh;
+  width: 40vw;
+}
+
+.section2-heading {
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: "Open Sans";
+  padding: 10px 0px;
+  /* font-family: "satisfy"; */
+}
+.baptism-txt {
+  max-width: 80%;
+  font-size: 16px !important;
+}
+
+button {
+  /* --c: goldenrod; */
+  --c: white;
+  color: var(--c);
+  font-size: 16px;
+  border: 0.3em solid var(--c);
+  border-radius: 0.5em;
+  width: 12em;
+  height: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 3em;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: transparent; /* Make the background transparent */
+  outline: none; /* Remove default focus outline */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button span {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: var(--c);
+  transform: translateY(150%);
+  border-radius: 50%;
+  left: calc((var(--n) - 1) * 25%);
+  transition: 0.5s;
+  transition-delay: calc((var(--n) - 1) * 0.1s);
+  z-index: -1;
+}
+
+button:hover {
+  color: black;
+}
+
+button:hover span {
+  transform: translateY(0) scale(2);
+}
+
+button span:nth-child(1) {
+  --n: 1;
+}
+
+button span:nth-child(2) {
+  --n: 2;
+}
+
+button span:nth-child(3) {
+  --n: 3;
+}
+
+button span:nth-child(4) {
+  --n: 4;
+}
+
+.baptism-btn {
+  /* --c: goldenrod; */
+  --c: black;
+  color: var(--c);
+  font-size: 16px;
+  border: 0.1em solid var(--c);
+  border-radius: 0.5em;
+  width: 12em;
+  height: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 3em;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: transparent; /* Make the background transparent */
+  outline: none; /* Remove default focus outline */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.baptism-btn span {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: var(--c);
+  transform: translateY(150%);
+  border-radius: 50%;
+  left: calc((var(--n) - 1) * 25%);
+  transition: 0.5s;
+  transition-delay: calc((var(--n) - 1) * 0.1s);
+  z-index: -1;
+}
+
+.baptism-btn:hover {
+  color: white;
+}
+
+.baptism-btn:hover span {
+  transform: translateY(0) scale(2);
+}
+
+.baptism-btn span:nth-child(1) {
+  --n: 1;
+}
+
+.baptism-btn span:nth-child(2) {
+  --n: 2;
+}
+
+.baptism-btn span:nth-child(3) {
+  --n: 3;
+}
+
+.baptism-btn span:nth-child(4) {
+  --n: 4;
+}
+
+.local-heading {
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: "Open Sans";
+  /* font-family: "satisfy"; */
+}
+
+.local-main-txt {
+  max-width: 500px;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (max-width: 465px) {
+  .baptism-text-container {
+    margin-top: 20px !important;
+    margin-bottom: 20px;
+  }
+  .baptism-txt {
+    max-width: 100%;
+    font-size: 14px;
+  }
+  .baptism-txt-src {
+    margin: -3px;
+  }
+
+  .local-wrapper2 {
+    height: 100%;
+  }
+  .local-wrapper3 {
+    height: 100%;
+  }
+  .local-wrapper-final {
+    height: 100%;
+  }
+  .local-wrapper1::after {
+    height: 10%;
+  }
+  .local-wrapper2::after {
+    height: 3%;
+  }
+  .local-wrapper3::after {
+    height: 3%;
+  }
+  .local-wrapper-final::after {
+    height: 3%;
+  }
+  .animated-heading {
+    font-size: 30px;
+  }
+  .animated-container {
+    font-size: 1.5rem;
+  }
+}

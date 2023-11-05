@@ -43,6 +43,18 @@
   font-size: large;
 }
 
+.text-black{
+  color: black;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-white{
+  color: white;
+}
+
 /* colors */
 .theme-bg-dark {
   background-color: var(--color-dark);
@@ -144,4 +156,12 @@
 
 .lazy-appear6{
   animation: 0.4s linear 1.2s 1 normal both lazyAppear;
+}
+
+.lazy-appear7{
+  animation: 0.4s linear 1.4s 1 normal both lazyAppear;
+}
+
+.lazy-appear8{
+  animation: 0.4s linear 1.6s 1 normal both lazyAppear;
 }
