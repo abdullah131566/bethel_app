@@ -70,7 +70,7 @@ import kelash13 from "@/source/Local/Kelash/kelash/13.jpg";
 import kelash14 from "@/source/Local/Kelash/kelash/14.jpg";
 import kelash15 from "@/source/Local/Kelash/kelash/15.jpg";
 import kelash16 from "@/source/Local/Kelash/kelash/16.jpg";
-import kelash17 from "@/source/Local/Kelash/kelash/17.jpg";
+// import kelash17 from "@/source/Local/Kelash/kelash/17.jpg";
 import kelash18 from "@/source/Local/Kelash/kelash/18.jpg";
 import kelash19 from "@/source/Local/Kelash/kelash/19.jpg";
 import kelash20 from "@/source/Local/Kelash/kelash/20.jpeg";
@@ -288,7 +288,7 @@ export default function LocalPage() {
               <img src={kelash14.src} alt="" />
               <img src={kelash15.src} alt="" />
               <img src={kelash16.src} alt="" />
-              <img src={kelash17.src} alt="" />
+              {/* <img src={kelash17.src} alt="" /> */}
               <img src={kelash18.src} alt="" />
               <img src={kelash19.src} alt="" />
               <img src={kelash20.src} alt="" />
