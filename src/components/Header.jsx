@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import Link from "next/link";
-// import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Header = () => {
   const navListRef = useRef(null);
@@ -20,7 +19,9 @@ const Header = () => {
     <header className="header relative padding-inline40 theme-bg-dark full-widthnheight flex flex-align-center flex-justify-sb">
       <nav className="flex">
         <div className="logo">
-          <Link href="/">Bethel</Link>
+          <Link className="header-link" href="/">
+            Bethel
+          </Link>
         </div>
 
         <ul
@@ -28,32 +29,57 @@ const Header = () => {
           ref={navListRef}
         >
           <li className="nav-item lazy-appear0 hover-underline-animation">
-            <p>Missions & Evangelism</p>
-            <div className="dropdown lazy-appear1">
+            {/* <p>Missions & Evangelism</p> */}
+            <Link className="header-link" href="#">
+              Missions & Evangelism
+            </Link>
+            <div className="my-dropdown lazy-appear1">
               <div className="column">
                 <h3 className="color-dim">Events</h3>
-                <Link className="hover-underline-animation" href="/about-us">Local</Link>
-                <Link className="hover-underline-animation" href="/aboutUs">Global</Link>
+                <Link
+                  className="hover-underline-animation header-link"
+                  href="/local"
+                >
+                  Local
+                </Link>
+                <Link
+                  className="hover-underline-animation header-link"
+                  href="/global"
+                >
+                  Global
+                </Link>
               </div>
             </div>
           </li>
           <li className="nav-item lazy-appear1 hover-underline-animation">
-            <Link href="/church-planting">Church planting</Link>
+            <Link className="header-link" href="/church-planting">
+              Church planting
+            </Link>
           </li>
           <li className="nav-item lazy-appear2 hover-underline-animation">
-            <Link href="/leadership-development">Leadership Development</Link>
+            <Link className="header-link" href="/leadership-development">
+              Leadership Development
+            </Link>
           </li>
           <li className="nav-item lazy-appear3 hover-underline-animation">
-            <Link href="/women-ministry">Women Ministry</Link>
+            <Link className="header-link" href="/women-ministry">
+              Women Ministry
+            </Link>
           </li>
           <li className="nav-item lazy-appear4 hover-underline-animation">
-            <Link href="/family-life">Family life</Link>
+            <Link className="header-link" href="/family-life">
+              Family life
+            </Link>
           </li>
           <li className="nav-item lazy-appear5 hover-underline-animation">
-            <Link href="/contact">Compassion & Relief</Link>
+            <Link className="header-link" href="/contact">
+              Compassion & Relief
+            </Link>
           </li>
           <li className="nav-item lazy-appear6 hover-underline-animation">
-            <Link href="/contact">Compassion & Relief</Link>
+            <Link className="header-link" href="/contact">
+              Compassion & Relief
+            </Link>
           </li>
         </ul>
       </nav>
