@@ -1,14 +1,54 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Col, Row } from "react-bootstrap";
-
-import img1 from "@/source/whatwedo_img1.jpeg";
-import img2 from "@/source/whatwedo_img2.jpeg";
-import img3 from "@/source/whatwedo_img3.jpeg";
-import img4 from "@/source/whatwedo_img4.jpeg";
 import ImageSlider from "@/components/General/ImageSlider";
 import { useRouter } from "next/router";
+
+import capeTown2011_1 from "@/source/global/Cape_town_2011/1.jpeg";
+import capeTown2011_2 from "@/source/global/Cape_town_2011/2.jpeg";
+import capeTown2011_3 from "@/source/global/Cape_town_2011/3.jpeg";
+import capeTown2011_4 from "@/source/global/Cape_town_2011/4.jpeg";
+import capeTown2011_5 from "@/source/global/Cape_town_2011/5.jpeg";
+import capeTown2011_6 from "@/source/global/Cape_town_2011/6.jpeg";
+import capeTown2011_7 from "@/source/global/Cape_town_2011/7.jpeg";
+import capeTown2011_8 from "@/source/global/Cape_town_2011/8.jpeg";
+import capeTown2011_9 from "@/source/global/Cape_town_2011/9.jpeg";
+
+import capeTown2014_1 from "@/source/global/cape_town_2014/1.jpeg";
+import capeTown2014_2 from "@/source/global/cape_town_2014/2.jpeg";
+import capeTown2014_3 from "@/source/global/cape_town_2014/3.jpeg";
+import capeTown2014_4 from "@/source/global/cape_town_2014/4.jpeg";
+import capeTown2014_5 from "@/source/global/cape_town_2014/5.jpeg";
+import capeTown2014_6 from "@/source/global/cape_town_2014/6.jpeg";
+import capeTown2014_7 from "@/source/global/cape_town_2014/7.jpeg";
+import capeTown2014_8 from "@/source/global/cape_town_2014/8.jpeg";
+import capeTown2014_9 from "@/source/global/cape_town_2014/9.jpeg";
+import capeTown2014_10 from "@/source/global/cape_town_2014/10.jpeg";
+import capeTown2014_11 from "@/source/global/cape_town_2014/11.jpeg";
+import capeTown2014_12 from "@/source/global/cape_town_2014/12.jpeg";
+import capeTown2014_13 from "@/source/global/cape_town_2014/13.jpeg";
+import capeTown2014_14 from "@/source/global/cape_town_2014/14.jpeg";
+import capeTown2014_15 from "@/source/global/cape_town_2014/15.jpeg";
+import capeTown2014_16 from "@/source/global/cape_town_2014/16.jpeg";
+import capeTown2014_17 from "@/source/global/cape_town_2014/17.jpeg";
+
+import namibia1 from "@/source/global/Namibia/1.jpeg";
+import namibia2 from "@/source/global/Namibia/2.jpeg";
+import namibia3 from "@/source/global/Namibia/3.jpeg";
+import namibia4 from "@/source/global/Namibia/4.jpeg";
+import namibia5 from "@/source/global/Namibia/5.jpeg";
+import namibia6 from "@/source/global/Namibia/6.jpeg";
+import namibia7 from "@/source/global/Namibia/7.jpeg";
+
+import singapore1 from "@/source/global/singapore_trip_2014/1.jpeg";
+import singapore2 from "@/source/global/singapore_trip_2014/2.jpeg";
+import singapore3 from "@/source/global/singapore_trip_2014/3.jpeg";
+import singapore4 from "@/source/global/singapore_trip_2014/4.jpeg";
+import singapore5 from "@/source/global/singapore_trip_2014/5.jpeg";
+import singapore6 from "@/source/global/singapore_trip_2014/6.jpeg";
+import singapore7 from "@/source/global/singapore_trip_2014/7.jpeg";
+import singapore8 from "@/source/global/singapore_trip_2014/8.jpeg";
 
 export default function GlobalPage() {
   const router = useRouter();
@@ -38,7 +78,7 @@ export default function GlobalPage() {
         </div>
         <br />
         <button className="lazy-appear6" onClick={navigateToReadMore}>
-          See our Work <span></span>
+          Read More.. <span></span>
           <span></span>
           <span></span>
           <span></span>
@@ -48,39 +88,50 @@ export default function GlobalPage() {
       {/* Section 2 */}
       <Container fluid className="local-wrapper2">
         <div className="section2-heading lazy-appear3">
-          <h2>Baptism</h2>
+          <h2>CAPE TOWN 2011</h2>
         </div>
 
         <Row className="lazy-appear5">
           <Col md={6} className="local-col1 lazy-appear1">
             <ImageSlider time={3500} transitionDuration={"1s"}>
-              <img src={img1.src} alt="" />
-              <img src={img2.src} alt="" />
-              <img src={img3.src} alt="" />
-              <img src={img4.src} alt="" />
+              <img src={capeTown2011_1.src} alt="" />
+              <img src={capeTown2011_2.src} alt="" />
+              <img src={capeTown2011_3.src} alt="" />
+              <img src={capeTown2011_4.src} alt="" />
+              <img src={capeTown2011_5.src} alt="" />
+              <img src={capeTown2011_6.src} alt="" />
+              <img src={capeTown2011_7.src} alt="" />
+              <img src={capeTown2011_8.src} alt="" />
+              <img src={capeTown2011_9.src} alt="" />
             </ImageSlider>{" "}
             <p className="baptism-txt-src text-center">
-              <i>Baptism Sources</i>
+              <i>CapeTown 2011 Sources</i>
             </p>
           </Col>
           <Col md={6} className="baptism-text-container lazy-appear2 local-col">
             <p className="baptism-txt">
-              This section offers insight into the practice of baptism across
-              different denominations, it&apos;s historical origins, and its
-              significance in contemporary worship. Learn about the theological
-              differences between infant baptism and believers baptism, the
-              preparation processes involved for candidates and their families,
-              and the various customs and celebrations associated with this
-              sacred ceremony.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              nec nisi ut libero fermentum fermentum. Integer convallis ex quis
+              sodales ultricies. Ut euismod, ante a suscipit lacinia, arcu odio
+              imperdiet libero, non auctor odio elit nec justo. Vestibulum
+              feugiat, turpis at feugiat varius, ligula dolor tincidunt metus,
+              ut sollicitudin elit odio at quam. Fusce volutpat, justo id auctor
+              laoreet, libero sapien vehicula nisl, et molestie sapien erat
+              vitae sapien. Phasellus nec ligula odio. Vivamus in sapien vitae
+              tellus venenatis posuere. Integer quis varius nunc, in dignissim
+              nisi.
             </p>
             <br />
 
             <p className="baptism-txt">
-              Baptism is a significant rite of passage in many Christian
-              traditions, symbolizing the washing away of sin and the
-              individual&apos;s admission into the faith community. It can be
-              performed through sprinkling, pouring, or immersion, and is often
-              considered a sacrament—a visible sign of an inward grace.
+              Pellentesque habitant morbi tristique senectus et netus et
+              malesuada fames ac turpis egestas. Ut vitae lacinia mauris, non
+              hendrerit ipsum. Integer vitae velit a sem condimentum vestibulum.
+              Nulla facilisi. Fusce interdum vitae eros nec dignissim. Sed eu
+              lacus urna. Vestibulum congue, mi a ultrices malesuada, arcu ipsum
+              varius felis, sit amet fermentum quam massa id lorem. In hac
+              habitasse platea dictumst. Quisque auctor turpis nec justo congue,
+              sit amet eleifend lacus efficitur.
             </p>
             <button
               className="baptism-btn lazy-appear6"
@@ -98,7 +149,7 @@ export default function GlobalPage() {
       {/* Section 3 MARWARI TRIBE */}
       <Container fluid className="local-wrapper3">
         <div className="section2-heading lazy-appear3 text-white">
-          <h2>Marwari Tribe</h2>
+          <h2>SINGAPORE TRIP 2014</h2>
         </div>
 
         <Row className="lazy-appear5">
@@ -107,22 +158,28 @@ export default function GlobalPage() {
             className="baptism-text-container lazy-appear2 text-white local-col"
           >
             <p className="baptism-txt">
-              The Marwari tribe is an ethnolinguistic group primarily from the
-              Rajasthan region in India, known for their rich cultural heritage,
-              business acumen, and traditional values. They are influential in
-              trade, commerce, and have a distinct language, attire, and cuisine
-              that set them apart.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              nec nisi ut libero fermentum fermentum. Integer convallis ex quis
+              sodales ultricies. Ut euismod, ante a suscipit lacinia, arcu odio
+              imperdiet libero, non auctor odio elit nec justo. Vestibulum
+              feugiat, turpis at feugiat varius, ligula dolor tincidunt metus,
+              ut sollicitudin elit odio at quam. Fusce volutpat, justo id auctor
+              laoreet, libero sapien vehicula nisl, et molestie sapien erat
+              vitae sapien. Phasellus nec ligula odio. Vivamus in sapien vitae
+              tellus venenatis posuere. Integer quis varius nunc, in dignissim
+              nisi.
             </p>
             <br />
 
             <p className="baptism-txt">
-              In this section, visitors can immerse themselves in the Marwari
-              way of life, learning about their contributions to Indian culture
-              and the global business landscape. Explore their festive
-              traditions, family structures, and the intricacies of Marwari
-              cuisine. Profiles on prominent Marwari personalities, their
-              folklore, and the challenges faced by the Marwari community in
-              modern times will also be featured.
+              Pellentesque habitant morbi tristique senectus et netus et
+              malesuada fames ac turpis egestas. Ut vitae lacinia mauris, non
+              hendrerit ipsum. Integer vitae velit a sem condimentum vestibulum.
+              Nulla facilisi. Fusce interdum vitae eros nec dignissim. Sed eu
+              lacus urna. Vestibulum congue, mi a ultrices malesuada, arcu ipsum
+              varius felis, sit amet fermentum quam massa id lorem. In hac
+              habitasse platea dictumst. Quisque auctor turpis nec justo congue,
+              sit amet eleifend lacus efficitur.
             </p>
             <button className=" lazy-appear6" onClick={navigateToReadMore}>
               Read More.. <span></span>
@@ -133,13 +190,17 @@ export default function GlobalPage() {
           </Col>
           <Col md={6} className="local-col1 lazy-appear1">
             <ImageSlider time={3500} transitionDuration={"1s"}>
-              <img src={img1.src} alt="" />
-              <img src={img2.src} alt="" />
-              <img src={img3.src} alt="" />
-              <img src={img4.src} alt="" />
+              <img src={singapore1.src} alt="" />
+              <img src={singapore2.src} alt="" />
+              <img src={singapore3.src} alt="" />
+              <img src={singapore4.src} alt="" />
+              <img src={singapore5.src} alt="" />
+              <img src={singapore6.src} alt="" />
+              <img src={singapore7.src} alt="" />
+              <img src={singapore8.src} alt="" />
             </ImageSlider>{" "}
             <p className="baptism-txt-src text-white text-center">
-              <i>Marwari Tribe Sources*</i>
+              <i>Singapore Trip 2014 Sources*</i>
             </p>
           </Col>
         </Row>
@@ -149,39 +210,58 @@ export default function GlobalPage() {
        */}
       <Container fluid className="local-wrapper2">
         <div className="section2-heading lazy-appear3">
-          <h2> KELASH TRIBE</h2>
+          <h2> CAPE TOWN 2014</h2>
         </div>
 
         <Row className="lazy-appear5">
           <Col md={6} className="local-col1 lazy-appear1">
             <ImageSlider time={3500} transitionDuration={"1s"}>
-              <img src={img1.src} alt="" />
-              <img src={img2.src} alt="" />
-              <img src={img3.src} alt="" />
-              <img src={img4.src} alt="" />
+              <img src={capeTown2014_1.src} alt="" />
+              <img src={capeTown2014_2.src} alt="" />
+              <img src={capeTown2014_3.src} alt="" />
+              <img src={capeTown2014_4.src} alt="" />
+              <img src={capeTown2014_5.src} alt="" />
+              <img src={capeTown2014_6.src} alt="" />
+              <img src={capeTown2014_7.src} alt="" />
+              <img src={capeTown2014_8.src} alt="" />
+              <img src={capeTown2014_9.src} alt="" />
+              <img src={capeTown2014_10.src} alt="" />
+              <img src={capeTown2014_11.src} alt="" />
+              <img src={capeTown2014_12.src} alt="" />
+              <img src={capeTown2014_13.src} alt="" />
+              <img src={capeTown2014_14.src} alt="" />
+              <img src={capeTown2014_15.src} alt="" />
+              <img src={capeTown2014_16.src} alt="" />
+              <img src={capeTown2014_17.src} alt="" />
             </ImageSlider>{" "}
             <p className="baptism-txt-src text-center">
-              <i>Baptism Sources</i>
+              <i>CapeTown 2014 Sources</i>
             </p>
           </Col>
           <Col md={6} className="baptism-text-container lazy-appear2 local-col">
             <p className="baptism-txt">
-              The Kalash or Kalasha, are a unique indigenous people residing in
-              the Chitral district of Pakistan. They are known for their
-              distinctive cultural rituals, colorful attire, and polytheistic
-              religion. This tribe is famed for their vibrant festivals and a
-              strong sense of identity that stands out in the predominantly
-              Muslim region of Pakistan.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              nec nisi ut libero fermentum fermentum. Integer convallis ex quis
+              sodales ultricies. Ut euismod, ante a suscipit lacinia, arcu odio
+              imperdiet libero, non auctor odio elit nec justo. Vestibulum
+              feugiat, turpis at feugiat varius, ligula dolor tincidunt metus,
+              ut sollicitudin elit odio at quam. Fusce volutpat, justo id auctor
+              laoreet, libero sapien vehicula nisl, et molestie sapien erat
+              vitae sapien. Phasellus nec ligula odio. Vivamus in sapien vitae
+              tellus venenatis posuere. Integer quis varius nunc, in dignissim
+              nisi.
             </p>
             <br />
 
             <p className="baptism-txt">
-              Discover the Kelash tribe’s way of life, their beliefs, and their
-              social structures in this section. Understand the significance of
-              their festivals like Joshi and Chaumos, their ancient customs, and
-              the challenges they face preserving their heritage. We also
-              examine the impact of tourism on their society and the steps being
-              taken to protect their culture.
+              Pellentesque habitant morbi tristique senectus et netus et
+              malesuada fames ac turpis egestas. Ut vitae lacinia mauris, non
+              hendrerit ipsum. Integer vitae velit a sem condimentum vestibulum.
+              Nulla facilisi. Fusce interdum vitae eros nec dignissim. Sed eu
+              lacus urna. Vestibulum congue, mi a ultrices malesuada, arcu ipsum
+              varius felis, sit amet fermentum quam massa id lorem. In hac
+              habitasse platea dictumst. Quisque auctor turpis nec justo congue,
+              sit amet eleifend lacus efficitur.
             </p>
             <button
               className="baptism-btn lazy-appear6"
@@ -200,7 +280,7 @@ export default function GlobalPage() {
        */}
       <Container fluid className="local-wrapper-final">
         <div className="section2-heading lazy-appear3 text-white">
-          <h2>BRICK KILNS</h2>
+          <h2>NAMBIBIA TOUR</h2>
         </div>
 
         <Row className="lazy-appear5">
@@ -209,24 +289,28 @@ export default function GlobalPage() {
             className="baptism-text-container lazy-appear2 text-white local-col"
           >
             <p className="baptism-txt">
-              Brick kilns are one of the oldest manufacturing facilities that
-              produce bricks, a fundamental building material. They operate
-              through firing clay at high temperatures, which historically
-              involved manual labor and traditional techniques. Today, they vary
-              from small-scale operations to large industrial complexes,
-              employing different technologies like Clamp Kilns, Bull’s Trench
-              Kilns, Hoffmann Kilns, and Tunnel Kilns.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              nec nisi ut libero fermentum fermentum. Integer convallis ex quis
+              sodales ultricies. Ut euismod, ante a suscipit lacinia, arcu odio
+              imperdiet libero, non auctor odio elit nec justo. Vestibulum
+              feugiat, turpis at feugiat varius, ligula dolor tincidunt metus,
+              ut sollicitudin elit odio at quam. Fusce volutpat, justo id auctor
+              laoreet, libero sapien vehicula nisl, et molestie sapien erat
+              vitae sapien. Phasellus nec ligula odio. Vivamus in sapien vitae
+              tellus venenatis posuere. Integer quis varius nunc, in dignissim
+              nisi.
             </p>
             <br />
 
             <p className="baptism-txt">
-              This section delves into the history of brick-making, the
-              evolution of kiln technology, and the environmental and social
-              issues surrounding the industry. It will highlight advancements in
-              sustainable practices, the life of workers in the kilns, and the
-              global distribution and economics of brick production. We also
-              address the advocacy for fair labor practices and the future of
-              brick manufacturing in an eco-conscious world.
+              Pellentesque habitant morbi tristique senectus et netus et
+              malesuada fames ac turpis egestas. Ut vitae lacinia mauris, non
+              hendrerit ipsum. Integer vitae velit a sem condimentum vestibulum.
+              Nulla facilisi. Fusce interdum vitae eros nec dignissim. Sed eu
+              lacus urna. Vestibulum congue, mi a ultrices malesuada, arcu ipsum
+              varius felis, sit amet fermentum quam massa id lorem. In hac
+              habitasse platea dictumst. Quisque auctor turpis nec justo congue,
+              sit amet eleifend lacus efficitur.
             </p>
             <button className=" lazy-appear6" onClick={navigateToReadMore}>
               Read More.. <span></span>
@@ -237,13 +321,16 @@ export default function GlobalPage() {
           </Col>
           <Col md={6} className="local-col1 lazy-appear1">
             <ImageSlider time={3500} transitionDuration={"1s"}>
-              <img src={img1.src} alt="" />
-              <img src={img2.src} alt="" />
-              <img src={img3.src} alt="" />
-              <img src={img4.src} alt="" />
+              <img src={namibia1.src} alt="" />
+              <img src={namibia2.src} alt="" />
+              <img src={namibia3.src} alt="" />
+              <img src={namibia4.src} alt="" />
+              <img src={namibia5.src} alt="" />
+              <img src={namibia6.src} alt="" />
+              <img src={namibia7.src} alt="" />
             </ImageSlider>{" "}
             <p className="baptism-txt-src text-white text-center">
-              <i>Marwari Tribe Sources*</i>
+              <i>Namibia Tour Sources*</i>
             </p>
           </Col>
         </Row>
