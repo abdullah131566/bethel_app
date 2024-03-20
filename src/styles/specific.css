@@ -211,8 +211,11 @@ li:hover .my-dropdown {
 
 /* hero section */
 .hero-section {
-  background: url(../source/herobg.jpeg) no-repeat center/cover;
+  /* background: url(../source/herobg.jpeg) no-repeat center/cover; */
   height: 100vh;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 2s ease-in-out; /* Smooth transition for background change */
 }
 .hero-section .verse {
   font-size: max(5vw, 40px);
