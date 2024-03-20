@@ -10,16 +10,24 @@ import img7 from "@/source/backgrounds/bg7.jpeg";
 
 const images = [
   img1.src, img2.src, img3.src, img4.src, img5.src, img6.src, img7.src
-  
 ];
+
+const preloadImages = (imageUrls) => {
+  imageUrls.forEach((url) => {
+    const img = new Image();
+    img.src = url;
+  });
+};
 
 const HeroSection = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
+    preloadImages(images);
+
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000); // Change background every 5 seconds (adjust as needed)
+    }, 5000);
 
     return () => clearInterval(interval);
   }, []);
@@ -33,6 +41,7 @@ const HeroSection = () => {
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         height: '100vh',
+        transition: 'background-image 2s ease-in-out' // Move transition property here
       }}
     >
       <div className="content-container">
