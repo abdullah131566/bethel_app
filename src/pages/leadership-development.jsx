@@ -25,11 +25,11 @@ const About = () => {
         </div>
         <div className="style-133">
             <div className="style-134">
-                <h6 className="style-135">Bethel's Mission is Leadership</h6>
+                <h6 className="style-135">Bethel&apos;s Mission is Leadership</h6>
                 <div className="style-136">
                     <h2 className="style-137">— RAISING LEADERS TO IMPACT LIVES, COMMUNITIES, AND NATIONS</h2>
                 </div>
-                <h2 className="style-138">FOR THE ADVANCEMENT OF GOD'S KINGDOM THROUGH HIS TRANSFORMING PRESENCE.</h2>
+                <h2 className="style-138">FOR THE ADVANCEMENT OF GOD&apos;S KINGDOM THROUGH HIS TRANSFORMING PRESENCE.</h2>
             </div>
         </div>
         <div className="style-139">
@@ -42,7 +42,7 @@ const About = () => {
                         <div className="style-146">
                             <h2 className="style-148">What We Do?</h2>
                             <p className="style-149">Bethel is a movement rooted in the love of God and committed to national transformation through Spirit-led leadership. The Lord has given us a mandate to raise and release leaders who impact communities and nations. We believe we are witnessing the rise of a generation marked by bold faith and servant hearts.</p>
-                            <p className="style-149">We are a growing family of disciple-makers who walk in God's presence and empower others to lead with wisdom, compassion, and courage. At the heart of our vision is the call to equip believers for every good work, launching them into their God-given assignments. We are honored to walk with you as we raise leaders who reflect the heart of Jesus in every sphere of life.</p>
+                            <p className="style-149">We are a growing family of disciple-makers who walk in God&apos;s presence and empower others to lead with wisdom, compassion, and courage. At the heart of our vision is the call to equip believers for every good work, launching them into their God-given assignments. We are honored to walk with you as we raise leaders who reflect the heart of Jesus in every sphere of life.</p>
                             <p className="style-149">We invite you to join us on this journey of Kingdom leadership!</p>
                         </div>
                     </div>
@@ -52,7 +52,7 @@ const About = () => {
         <div className="style-155">
             <div className="style-156">
                 <h6 className="style-157">History</h6>
-                <h2 className="style-158">A History of God's Faithfulness</h2>
+                <h2 className="style-158">A History of God&apos;s Faithfulness</h2>
                 <div className="style-159">
                     <div className="style-160"></div>
                     <div className="style-161">
@@ -60,7 +60,7 @@ const About = () => {
                             <div className="style-163 -left-10 lg:-right-10"></div>
                         </div>
                         <div data-w-id="b218cc88-761a-9b18-269c-4b13d7adf48d" className="style-164 float-right lg:float-left">
-                            <h3 className="style-165">1st Annual Women's Camp <br /> - <i>2011</i></h3>
+                            <h3 className="style-165">1st Annual Women&apos;s Camp <br /> - <i>2011</i></h3>
                             <div className="flex flex-wrap flex-row-reverse">
                                 <Image src="https://roshanrah.blob.core.windows.net/bethel/1st Annual Women_s Camp 2011/DSC08973.jpg" alt="" width="120" height="120" className="object-fit-cover" />
                                 <Image src="https://roshanrah.blob.core.windows.net/bethel/1st Annual Women_s Camp 2011/DSC08983.jpg" alt="" width="120" height="120" className="object-fit-cover" />
@@ -247,7 +247,7 @@ const About = () => {
                             <div className="style-163 -left-10"></div>
                         </div>
                         <div data-w-id="d46f9f9f-688d-09c2-7b55-1786f211a9a6" className="style-164 float-right">
-                            <h3 className="style-165">Marwari Fellowship Leaders' Camp <br /> - <i>2017</i></h3>
+                            <h3 className="style-165">Marwari Fellowship Leaders&apos; Camp <br /> - <i>2017</i></h3>
                             <div className="flex flex-wrap flex-row-reverse">
                                 <Image src="https://roshanrah.blob.core.windows.net/bethel/Marwari Fellowship Leader Camp 2017/SAM_1818.jpg" alt="" width="120" height="120" className="object-fit-cover" />
                                 <Image src="https://roshanrah.blob.core.windows.net/bethel/Marwari Fellowship Leader Camp 2017/SAM_1830.jpg" alt="" width="120" height="120" className="object-fit-cover" />
