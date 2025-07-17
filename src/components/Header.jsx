@@ -77,8 +77,8 @@ const Header = () => {
             </Link>
           </li>
           <li className="nav-item lazy-appear6 hover-underline-animation">
-            <Link className="header-link" href="/contact">
-              Compassion & Relief
+            <Link className="header-link" href="/leadership-development">
+              Leadership Development
             </Link>
           </li>
         </ul>

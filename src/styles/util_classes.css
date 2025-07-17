@@ -4,6 +4,9 @@
 .flex-column {
   flex-direction: column;
 }
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
 .flex-align-center {
   align-items: center;
 }
@@ -12,6 +15,9 @@
 }
 .flex-justify-sb {
   justify-content: space-between;
+}
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 /* margins and position stuff */
@@ -85,6 +91,9 @@
   background-color: var(--color-dark);
   color: var(--color-text);
 }
+.object-fit-cover {
+  object-fit: cover;
+}
 
 /* border-stuff */
 .no-border {
@@ -114,6 +123,46 @@
 }
 .fit-content {
   width: fit-content;
+}
+
+.left-0 {
+  left: 0;
+}
+.right-0 {
+  right: 0;
+}
+.-left-10 {
+  left: -10px;
+}
+.-right-10 {
+  right: -10px;
+}
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+@media (min-width: 900px) {
+  .lg\:float-left {
+    float: left;
+  }
+  .lg\:float-right {
+    float: right;
+  }
+  .lg\:left-0 {
+    left: 0;
+  }
+  .lg\:right-0 {
+    right: 0;
+  }
+  .lg\:-left-10 {
+    left: -10px;
+  }
+  .lg\:-right-10 {
+    right: -10px;
+  }
 }
 
 /* pointers stuff */
