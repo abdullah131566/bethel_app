@@ -1,4 +1,5 @@
 
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -35,7 +36,7 @@ const About = () => {
             <div className="style-140">
                 <div className="style-141">
                     <div className="style-142">
-                        <div className="style-143"><Image src="https://roshanrah.blob.core.windows.net/bethel/L2.jpg" loading="lazy" sizes="(max-width: 800px) 100vw, 800px" alt="Bethel is a congregation rooted in the Love of God." className="style-144" /></div>
+                        <div className="style-143"><Image src="https://roshanrah.blob.core.windows.net/bethel/L2.jpg" loading="lazy" width={800} height={600} sizes="(max-width: 800px) 100vw, 800px" alt="Bethel is a congregation rooted in the Love of God." className="style-144" /></div>
                     </div>
                     <div className="style-145">
                         <div className="style-146">
@@ -281,7 +282,7 @@ const About = () => {
                         <div className="style-293">
                             <div className="style-294">
                                 <h5 className="style-295">Core Values</h5>
-                                <p className="style-296">Explore Bethel's core values.</p>
+                                <p className="style-296">Explore Bethel&apos;s core values.</p>
                             </div><Link href="/" className="style-297">Learn More</Link>
                         </div>
                     </div>
