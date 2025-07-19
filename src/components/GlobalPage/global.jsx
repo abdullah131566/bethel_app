@@ -71,7 +71,7 @@ export default function GlobalPage() {
         </h3>
 
         <div className="local-main-txt lazy-appear5">
-          Courage is what led us to our name and it’s what will lead you to
+          Courage is what led us to our name and it&apos;s what will lead you to
           winning ideas that fuel your creative juices, inspire your team, and
           move your audiences. Consider us your partner in crime on the journey
           to find your fascinating.

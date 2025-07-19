@@ -109,7 +109,7 @@ export default function LocalPage() {
         </h3>
 
         <div className="local-main-txt lazy-appear5">
-          Courage is what led us to our name and it’s what will lead you to
+          Courage is what led us to our name and it&apos;s what will lead you to
           winning ideas that fuel your creative juices, inspire your team, and
           move your audiences. Consider us your partner in crime on the journey
           to find your fascinating.
@@ -310,7 +310,7 @@ export default function LocalPage() {
             <br />
 
             <p className="baptism-txt">
-              Discover the Kelash tribe’s way of life, their beliefs, and their
+              Discover the Kelash tribe&apos;s way of life, their beliefs, and their
               social structures in this section. Understand the significance of
               their festivals like Joshi and Chaumos, their ancient customs, and
               the challenges they face preserving their heritage. We also
@@ -348,7 +348,7 @@ export default function LocalPage() {
               through firing clay at high temperatures, which historically
               involved manual labor and traditional techniques. Today, they vary
               from small-scale operations to large industrial complexes,
-              employing different technologies like Clamp Kilns, Bull’s Trench
+              employing different technologies like Clamp Kilns, Bull&apos;s Trench
               Kilns, Hoffmann Kilns, and Tunnel Kilns.
             </p>
             <br />

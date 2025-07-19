@@ -2,11 +2,6 @@ import React, { useState, useEffect } from "react";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Col, Row } from "react-bootstrap";
-
-import img1 from "@/source/whatwedo_img1.jpeg";
-import img2 from "@/source/whatwedo_img2.jpeg";
-import img3 from "@/source/whatwedo_img3.jpeg";
-import img4 from "@/source/whatwedo_img4.jpeg";
 import ImageSlider from "@/components/General/ImageSlider";
 import { useRouter } from "next/router";
 import Image from "next/image";
