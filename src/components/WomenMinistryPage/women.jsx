@@ -12,7 +12,6 @@ export default function WomenMinistryPage() {
   const router = useRouter();
 
   const navigateToReadMore = () => {
-    // window.location.href = '/read-more';
     router.push("#baptism-container");
   };
 
@@ -214,7 +213,7 @@ export default function WomenMinistryPage() {
             <p className="baptism-txt">
               Held in <strong>Faisalabad on 23rd March 2014</strong>, this special <strong>Ladies Seminar</strong> brought 
               together women from various local churches for a day of worship, teaching, and encouragement. The gathering 
-              created space for women to be refreshed in God's presence and reminded of their value, calling, and influence 
+              created space for women to be refreshed in God&apos;s presence and reminded of their value, calling, and influence 
               in both the Church and society.
             </p>
             <br />
