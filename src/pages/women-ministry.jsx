@@ -5,10 +5,6 @@ import Footer from "@/components/Footer";
 
 export default function aboutUs() {
   return (
-    <div>
-      <Header />
-      <WomenMinistryPage />
-      <Footer />
-    </div>
+    <WomenMinistryPage />
   );
 }

@@ -396,3 +396,9 @@ li:hover .my-dropdown {
   padding-bottom: 40px;
   width: 70%;
 }
+
+.women-ministry-hero {
+  background-image: url('https://roshanrah.blob.core.windows.net/bethel/Women Ministry/W1.png');
+  background-size: cover;
+  background-position: 40% center;
+}

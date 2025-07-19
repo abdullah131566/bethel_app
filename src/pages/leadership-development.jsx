@@ -123,18 +123,18 @@ const About = () => {
                         <div data-w-id="a5b1914d-026c-a849-0613-51bd2a74e16c" className="style-164 float-right">
                             <h3 className="style-165">Leadership Training Camp <br /> - <i>2014</i></h3>
                             <div className="flex flex-wrap flex-row-reverse">
-                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp  2014/IMG_7213.jpg" alt="" width="120" height="120" className="object-fit-cover" />
-                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp  2014/IMG_7218.jpg" alt="" width="120" height="120" className="object-fit-cover" />
-                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp  2014/IMG_7249.jpg" alt="" width="120" height="120" className="object-fit-cover" />
-                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp  2014/IMG_7251.jpg" alt="" width="120" height="120" className="object-fit-cover" />
-                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp  2014/IMG_7258.jpg" alt="" width="120" height="120" className="object-fit-cover" />
-                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp  2014/IMG_7304.jpg" alt="" width="120" height="120" className="object-fit-cover" />
-                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp  2014/IMG_7344.jpg" alt="" width="120" height="120" className="object-fit-cover" />
-                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp  2014/IMG_7349.jpg" alt="" width="120" height="120" className="object-fit-cover" />
-                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp  2014/IMG_7351.jpg" alt="" width="120" height="120" className="object-fit-cover" />
-                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp  2014/IMG_7353.jpg" alt="" width="120" height="120" className="object-fit-cover" />
-                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp  2014/IMG_7360.jpg" alt="" width="120" height="120" className="object-fit-cover" />
-                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp  2014/IMG_7366.jpg" alt="" width="120" height="120" className="object-fit-cover" />
+                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp 2014/IMG_7213.jpg" alt="" width="120" height="120" className="object-fit-cover" />
+                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp 2014/IMG_7218.jpg" alt="" width="120" height="120" className="object-fit-cover" />
+                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp 2014/IMG_7249.jpg" alt="" width="120" height="120" className="object-fit-cover" />
+                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp 2014/IMG_7251.jpg" alt="" width="120" height="120" className="object-fit-cover" />
+                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp 2014/IMG_7258.jpg" alt="" width="120" height="120" className="object-fit-cover" />
+                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp 2014/IMG_7304.jpg" alt="" width="120" height="120" className="object-fit-cover" />
+                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp 2014/IMG_7344.jpg" alt="" width="120" height="120" className="object-fit-cover" />
+                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp 2014/IMG_7349.jpg" alt="" width="120" height="120" className="object-fit-cover" />
+                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp 2014/IMG_7351.jpg" alt="" width="120" height="120" className="object-fit-cover" />
+                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp 2014/IMG_7353.jpg" alt="" width="120" height="120" className="object-fit-cover" />
+                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp 2014/IMG_7360.jpg" alt="" width="120" height="120" className="object-fit-cover" />
+                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp 2014/IMG_7366.jpg" alt="" width="120" height="120" className="object-fit-cover" />
                             </div>
                         </div>
                     </div>
@@ -171,8 +171,8 @@ const About = () => {
                                 <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp Ladies 2016/20160927_205120.jpg" alt="" width="120" height="120" className="object-fit-cover" />
                                 <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp Ladies 2016/20160927_220809.jpg" alt="" width="120" height="120" className="object-fit-cover" />
                                 <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp Ladies 2016/20160928_095559.jpg" alt="" width="120" height="120" className="object-fit-cover" />
-                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp Ladies 2016/SAM_1109.jpg" alt="" width="120" height="120" className="object-fit-cover" />
-                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp Ladies 2016/SAM_1139 (2).jpg" alt="" width="120" height="120" className="object-fit-cover" />
+                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp Ladies 2016/20160928_095658.JPG" alt="" width="120" height="120" className="object-fit-cover" />
+                                <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp Ladies 2016/20160928_095659.JPG" alt="" width="120" height="120" className="object-fit-cover" />
                                 <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp Ladies 2016/20160926_201032.jpg" alt="" width="120" height="120" className="object-fit-cover" />
                                 <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp Ladies 2016/20160926_201041.jpg" alt="" width="120" height="120" className="object-fit-cover" />
                                 <Image src="https://roshanrah.blob.core.windows.net/bethel/Leadership Training Camp Ladies 2016/20160927_093925.jpg" alt="" width="120" height="120" className="object-fit-cover" />
