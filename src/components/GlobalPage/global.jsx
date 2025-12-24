@@ -50,6 +50,31 @@ import singapore6 from "@/source/global/singapore_trip_2014/6.jpeg";
 import singapore7 from "@/source/global/singapore_trip_2014/7.jpeg";
 import singapore8 from "@/source/global/singapore_trip_2014/8.jpeg";
 
+import usatrip1 from "@/source/global/usatrip2024/1.jpeg";
+import usatrip2 from "@/source/global/usatrip2024/2.jpeg";
+import usatrip3 from "@/source/global/usatrip2024/3.jpeg";
+import usatrip4 from "@/source/global/usatrip2024/4.jpeg";
+import usatrip5 from "@/source/global/usatrip2024/5.jpeg";
+
+import aea1 from "@/source/global/aeawomen/1.jpeg";
+import aea2 from "@/source/global/aeawomen/2.jpeg";
+import aea3 from "@/source/global/aeawomen/3.jpeg";
+import aea4 from "@/source/global/aeawomen/4.jpeg";
+import aea5 from "@/source/global/aeawomen/5.jpeg";
+import aea6 from "@/source/global/aeawomen/6.jpeg";
+import aea7 from "@/source/global/aeawomen/7.jpeg";
+import aea8 from "@/source/global/aeawomen/8.jpeg";
+
+import womentogether1 from "@/source/global/womentogetherasia/1.jpeg";
+import womentogether2 from "@/source/global/womentogetherasia/2.jpeg";
+import womentogether3 from "@/source/global/womentogetherasia/3.jpeg";
+import womentogether4 from "@/source/global/womentogetherasia/4.jpeg";
+import womentogether5 from "@/source/global/womentogetherasia/5.jpeg";
+import womentogether6 from "@/source/global/womentogetherasia/6.jpeg";
+import womentogether7 from "@/source/global/womentogetherasia/7.jpeg";
+import womentogether8 from "@/source/global/womentogetherasia/8.jpeg";
+
+
 export default function GlobalPage() {
   const router = useRouter();
 
@@ -86,6 +111,100 @@ export default function GlobalPage() {
       </div>
 
       {/* Section 2 */}
+      <Container fluid className="local-wrapper2">
+        <div className="section2-heading lazy-appear3">
+          <h2>Spanish Church Visit - USA 2024</h2>
+        </div>
+
+        <Row className="lazy-appear5">
+          <Col md={6} className="local-col1 lazy-appear1">
+            <ImageSlider time={3500} transitionDuration={"1s"}>
+              <img src={usatrip1.src} alt="" />
+              <img src={usatrip2.src} alt="" />
+              <img src={usatrip3.src} alt="" />
+              <img src={usatrip4.src} alt="" />
+              <img src={usatrip5.src} alt="" />
+            
+            </ImageSlider>{" "}
+            <p className="baptism-txt-src text-center">
+              <i>Spanish Church Visit - USA 2024 Sources</i>
+            </p>
+          </Col>
+          <Col md={6} className="baptism-text-container lazy-appear2 local-col">
+            <p className="baptism-txt">
+              During the 2024 USA trip, I was given the opportunity to visit and preach at a 
+              Spanish-speaking church. This ministry moment came during a deeply difficult time,
+              as my cousin had recently passed away. In the midst of personal loss, the message
+              focused on how, even in life’s storms, we are sustained when we remain rooted in Christ.
+            </p>
+            <br />
+
+            <p className="baptism-txt">
+              During this trip, God provided opportunities to minister in Colorado, where the focus 
+              was on highlighting the importance of women within the Presbyterian Church and their
+              vital role in the life of the Church.
+            </p>
+            {/* <button
+              className="baptism-btn lazy-appear6"
+              onClick={navigateToReadMore}
+            >
+              Read More.. <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </button> */}
+          </Col>
+        </Row>
+      </Container>
+
+      {/* Section 3 MARWARI TRIBE */}
+      <Container fluid className="local-wrapper3">
+        <div className="section2-heading lazy-appear3 text-white">
+          <h2>Asian Evangelical Alliance Women’s Conference</h2>
+        </div>
+
+        <Row className="lazy-appear5">
+          <Col
+            md={6}
+            className="baptism-text-container lazy-appear2 text-white local-col"
+          >
+            <p className="baptism-txt">
+              This conference, organized by the Asian Evangelical Alliance, was the first in-person
+              gathering held after COVID. Centered on the theme “Arise and Shine,” the conference
+              focused on storytelling as a powerful tool for faith and witness.
+            </p>
+            <br />
+
+            <p className="baptism-txt">
+              The keynote speaker, Asha Williamson, a British speaker, beautifully encouraged women
+              to recognize the story God has placed in their lives and to use their personal journeys
+              to bring honor and glory to His name.
+            </p>
+            {/* <button className=" lazy-appear6" onClick={navigateToReadMore}>
+              Read More.. <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </button> */}
+          </Col>
+          <Col md={6} className="local-col1 lazy-appear1">
+            <ImageSlider time={3500} transitionDuration={"1s"}>
+              <img src={aea1.src} alt="" />
+              <img src={aea2.src} alt="" />
+              <img src={aea3.src} alt="" />
+              <img src={aea4.src} alt="" />
+              <img src={aea5.src} alt="" />
+              <img src={aea6.src} alt="" />
+              <img src={aea7.src} alt="" />
+              <img src={aea8.src} alt="" />
+            </ImageSlider>{" "}
+            <p className="baptism-txt-src text-white text-center">
+              <i>Asian Evangelical Alliance Women’s Conference Sources*</i>
+            </p>
+          </Col>
+        </Row>
+      </Container>
+
       <Container fluid className="local-wrapper2">
         <div className="section2-heading lazy-appear3">
           <h2>CAPE TOWN 2011</h2>
@@ -276,9 +395,7 @@ export default function GlobalPage() {
         </Row>
       </Container>
 
-      {/* Section 5 BRICK KILNS
-       */}
-      <Container fluid className="local-wrapper-final">
+       <Container fluid className="local-wrapper3">
         <div className="section2-heading lazy-appear3 text-white">
           <h2>NAMBIBIA TOUR</h2>
         </div>
@@ -289,35 +406,30 @@ export default function GlobalPage() {
             className="baptism-text-container lazy-appear2 text-white local-col"
           >
             <p className="baptism-txt">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-              nec nisi ut libero fermentum fermentum. Integer convallis ex quis
-              sodales ultricies. Ut euismod, ante a suscipit lacinia, arcu odio
-              imperdiet libero, non auctor odio elit nec justo. Vestibulum
-              feugiat, turpis at feugiat varius, ligula dolor tincidunt metus,
-              ut sollicitudin elit odio at quam. Fusce volutpat, justo id auctor
-              laoreet, libero sapien vehicula nisl, et molestie sapien erat
-              vitae sapien. Phasellus nec ligula odio. Vivamus in sapien vitae
-              tellus venenatis posuere. Integer quis varius nunc, in dignissim
-              nisi.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec nisi ut libero 
+              fermentum fermentum. Integer convallis ex quis sodales ultricies. Ut euismod, ante a 
+              suscipit lacinia, arcu odio imperdiet libero, non auctor odio elit nec justo. Vestibulum
+              feugiat, turpis at feugiat varius, ligula dolor tincidunt metus, ut sollicitudin elit
+              odio at quam. Fusce volutpat, justo id auctor laoreet, libero sapien vehicula nisl, et
+              molestie sapien erat vitae sapien. Phasellus nec ligula odio. Vivamus in sapien vitae
+              tellus venenatis posuere. Integer quis varius nunc, in dignissim nisi.
             </p>
             <br />
 
             <p className="baptism-txt">
-              Pellentesque habitant morbi tristique senectus et netus et
-              malesuada fames ac turpis egestas. Ut vitae lacinia mauris, non
-              hendrerit ipsum. Integer vitae velit a sem condimentum vestibulum.
-              Nulla facilisi. Fusce interdum vitae eros nec dignissim. Sed eu
-              lacus urna. Vestibulum congue, mi a ultrices malesuada, arcu ipsum
-              varius felis, sit amet fermentum quam massa id lorem. In hac
-              habitasse platea dictumst. Quisque auctor turpis nec justo congue,
-              sit amet eleifend lacus efficitur.
+             Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+             egestas. Ut vitae lacinia mauris, non hendrerit ipsum. Integer vitae velit a sem 
+             condimentum vestibulum. Nulla facilisi. Fusce interdum vitae eros nec dignissim. Sed eu
+             lacus urna. Vestibulum congue, mi a ultrices malesuada, arcu ipsum varius felis, sit 
+             amet fermentum quam massa id lorem. In hac habitasse platea dictumst. Quisque auctor 
+             turpis nec justo congue, sit amet eleifend lacus efficitur.
             </p>
-            <button className=" lazy-appear6" onClick={navigateToReadMore}>
+            {/* <button className=" lazy-appear6" onClick={navigateToReadMore}>
               Read More.. <span></span>
               <span></span>
               <span></span>
               <span></span>
-            </button>
+            </button> */}
           </Col>
           <Col md={6} className="local-col1 lazy-appear1">
             <ImageSlider time={3500} transitionDuration={"1s"}>
@@ -335,6 +447,60 @@ export default function GlobalPage() {
           </Col>
         </Row>
       </Container>
+
+      {/* Section 5 BRICK KILNS
+       */}
+      <Container fluid className="local-wrapper2">
+        <div className="section2-heading lazy-appear3">
+          <h2>Women Together Asia Conference</h2>
+        </div>
+
+        <Row className="lazy-appear5">
+          <Col md={6} className="local-col1 lazy-appear1">
+            <ImageSlider time={3500} transitionDuration={"1s"}>
+              <img src={womentogether1.src} alt="" />
+              <img src={womentogether2.src} alt="" />
+              <img src={womentogether3.src} alt="" />
+              <img src={womentogether4.src} alt="" />
+              <img src={womentogether5.src} alt="" />
+              <img src={womentogether6.src} alt="" />
+              <img src={womentogether7.src} alt="" />
+              <img src={womentogether8.src} alt="" />
+              
+            </ImageSlider>{" "}
+            <p className="baptism-txt-src text-center">
+              <i>Women Together Asia Conference Sources</i>
+            </p>
+          </Col>
+          <Col md={6} className="baptism-text-container lazy-appear2 local-col">
+            <p className="baptism-txt">
+              This conference marked our first gathering in collaboration with Women Together Asia, 
+              working alongside Dr. Susan Chan. The event brought together 50 women leaders from 12
+              different countries, united around the theme “Influential Leadership Impacting 
+              Generations.”
+            </p>
+            <br />
+
+            <p className="baptism-txt">
+             Participants ranged from as young as 15–16 years old to over 75 years of age, reflecting 
+             a powerful intergenerational presence. The Bible study focused on Mary, highlighting her 
+             desire to sit at the feet of Christ and presenting her life as a lasting example of 
+             leadership and devotion for women today.
+            </p>
+            {/* <button
+              className="baptism-btn lazy-appear6"
+              onClick={navigateToReadMore}
+            >
+              Read More.. <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </button> */}
+          </Col>
+        </Row>
+      </Container>
+
+      
     </Container>
   );
 }

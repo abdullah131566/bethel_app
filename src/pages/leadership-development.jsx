@@ -25,7 +25,7 @@ const About = () => {
         </div>
         <div className="style-133">
             <div className="style-134">
-                <h6 className="style-135">Bethel&apos;s Mission is Leadership</h6>
+                <h6 className="style-135">Bethel&apos;s Mission is Developing Leadership</h6>
                 <div className="style-136">
                     <h2 className="style-137">— RAISING LEADERS TO IMPACT LIVES, COMMUNITIES, AND NATIONS</h2>
                 </div>
@@ -266,6 +266,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>

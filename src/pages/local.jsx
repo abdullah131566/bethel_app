@@ -6,9 +6,9 @@ import Footer from "@/components/Footer";
 export default function aboutUs() {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <LocalPage />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

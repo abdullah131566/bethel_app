@@ -72,8 +72,13 @@ const Header = () => {
             </Link>
           </li>
           <li className="nav-item lazy-appear5 hover-underline-animation">
-            <Link className="header-link" href="/contact">
+            <Link className="header-link" href="/compassion-and-relief">
               Compassion & Relief
+            </Link>
+          </li>
+          <li className="nav-item lazy-appear5 hover-underline-animation">
+            <Link className="header-link" href="/contact">
+              Brick Kiln Rescue Mission
             </Link>
           </li>
         </ul>

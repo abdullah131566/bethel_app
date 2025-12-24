@@ -105,18 +105,31 @@ li:hover .my-dropdown {
 
 
 .header {
-  padding: 35px;
+  padding: 25px;
 }
 .logo {
   margin-right: 35px;
   font-family: "Satisfy";
   font-size: 25px;
 }
+
+/*  Header    */
+.logo .header-link {
+  font-size: 2rem;        /* increase size */
+  font-weight: 500;      /* stronger presence */
+  letter-spacing: 1px;   /* optional: premium feel */
+}
+
 .nav-list {
-  gap: 16px;
+  gap: 4px;
   font-size: small;
   padding: 0px;
+  text-align: center;
+  display: inline-block;
+  line-height: 1.2;
+  margin-right: 60px;
 }
+
 .header-search-btn {
   width: 20px;
   height: 20px;
@@ -191,23 +204,291 @@ li:hover .my-dropdown {
   gap: 80px;
   padding-block: 60px;
 }
-.footer-card > h4 {
+/* .footer-card > h4 {
   letter-spacing: 0.12em;
   margin-bottom: 20px;
-  font-size: larger;
-}
+  font-size: larger; */
+/* } */
 
-.about-text {
+/* .about-text {
   width: 80%;
-}
+} */
 
-.footer-card-list > li {
+/* .footer-card-list > li {
   margin-bottom: 18px;
+} */
+
+/* .copyright-mark {
+  padding-block: 60px;
+} */
+
+
+/* inner width */
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  
 }
 
-.copyright-mark {
-  padding-block: 60px;
+/* TOP layout — two columns */
+.footer-top {
+  display: flex;
+  gap: 48px;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 56px;
 }
+
+/* LEFT block (text + product links + button) */
+.footer-left {
+  width: 420px; /* fixed left width like design */
+}
+
+.footer-intro {
+  color: #cfcfcf;
+  line-height: 1.7;
+  max-width: 520px;
+  margin-top: 25px;
+  margin-bottom: 48px;
+  margin-right: -70px;
+  font-size: 19px;
+}
+
+/* Product links column */
+.footer-column-title {
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 12px 0;
+  font-size: 16px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  /* margin: 0 0 30px 0; */
+  margin-top: 330px;
+}
+
+.footer-column li {
+  margin: 5SSpx 0; /* ⬅️ adds a small, controlled vertical gap */
+  line-height: 1.7; /* ⬅️ slightly tighter line height */
+}
+
+.footer-link {
+  color: #cfcfcf;
+  text-decoration: none;
+  transition: color 0.22s ease, transform 0.18s ease;
+  font-size: 15px;
+  
+}
+.footer-link:hover {
+  color: #fff;
+  transform: translateX(4px);
+}
+
+
+/* Get a Demo button (left) */
+.footer-demo-btn {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background: #fff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 28px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.22s ease, background 0.22s ease;
+}
+.footer-demo-btn:hover {
+  transform: translateY(-3px);
+  background: #f3f3f3;
+}
+
+/* RIGHT block - contact form card */
+.footer-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact-card {
+  /* height: 590px; */
+  width: 510px;
+  background: rgb(20, 19, 19);
+  padding: 26px;
+  border-radius: 12px;
+  border: 2px solid rgb(47, 45, 45);
+  box-shadow: 0 8px 40px rgba(0,0,0,0.6);
+  margin-right: 30px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* Title/sub */
+.contact-title {
+  font-size: 30px;
+  margin: -5px 0 5px 0;
+}
+.contact-sub {
+  color: #cfcfcf;
+  margin: 0 0 20px 0;
+  line-height: 1.6;
+}
+
+/* Form fields */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input, .textarea {
+  background: rgb(53, 51, 51);
+  border: 1.5px solid rgb(61, 60, 60);
+  color: #eaeaea;
+  padding: 12px 14px;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.input:focus, .textarea:focus {
+  border-color: rgba(173, 167, 166, 0.9);
+  box-shadow: 0 6px 20px rgba(10,130,255,0.06);
+}
+
+.textarea {
+  min-height: 130px;
+  resize: vertical;
+  font-family: inherit;
+}
+
+/* Send button (blue gradient) */
+.send-btn {
+  margin-top: 12px;
+  background: linear-gradient(90deg,#68030c,#68030c);
+  border: none;
+  color: #fff;
+  /* padding: 0px; */
+  padding: 12px 24px;
+
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+
+  width: 100%;
+  max-width: 240px;
+  align-self: center;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 12px; */
+  font-size: 16px;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  /* margin-left: 130px;
+  margin-right: 130px; */
+}
+.send-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(146, 32, 3, 0.14);
+  color: #fff !important;
+}
+
+/* resources section */
+.footer-left .heading {
+  margin-top: 70px;
+  margin-bottom: 18px; /* nice tight gap below heading */
+  font-size: 21px;
+}
+
+/* Button group layout */
+.footer-left .btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 16px; /* vertical | horizontal spacing */
+  max-width: auto;
+  /* min-width: 210px; */
+  margin-right: -130px;
+}
+
+/* Resources items (NOT buttons) */
+.footer-left .btn-group .btn-paddings {
+  min-width: 170px;      /* 👈 control width here */
+  padding: 7px 18px;    /* better card-like feel */
+  text-align: center;
+  
+  
+}
+
+/* Disable hover animation for resource items */
+.footer-left .btn-group .btn-paddings:hover {
+  transform: none !important;
+  box-shadow: none !important;
+  
+}
+/* Completely lock resource item colors on hover */
+.footer-left .btn-group .btn-paddings,
+.footer-left .btn-group .btn-paddings:hover {
+  background: rgb(245, 245, 245) !important; /* match theme-bg-light */
+  color: #000 !important;
+}
+
+
+/* Socials section */
+.footer-socials {
+  margin-top: 78px;
+}
+
+.socials-heading {
+  margin-top: 80px;
+  font-size: 21px;
+  margin-bottom: 14px;
+  color: #fff;
+}
+
+/* Icon layout */
+.socials-icons {
+  display: flex;
+  gap: 18px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/* Individual icon box */
+.social-box {
+  width: 52px;
+  height: 52px;
+  background: rgb(32, 30, 30);
+  border: 1.5px solid rgb(55, 52, 52);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #cfcfcf;
+  font-size: 18px;
+  transition: all 0.25s ease;
+}
+
+/* Hover effect */
+.social-box:hover {
+  background: black;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(104, 3, 12, 0.35);
+}
+
+/* Icon sizing inside social boxes */
+.social-box svg {
+  font-size: 22px;
+}
+
+
+
 
 /* hero section */
 .hero-section {
@@ -380,6 +661,60 @@ li:hover .my-dropdown {
   padding-bottom: 40px;
   width: 70%;
 }
+
+/* Overlay background */
+.video-overlay {
+  position: fixed;
+  top: -35px;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: flex-start; /* video appears towards top */
+  justify-content: center;
+  padding-top: 80px;
+  z-index: 9999;
+}
+
+/* Video modal box */
+.video-modal {
+  background: #323131;
+  width: 80%;
+  max-width: 900px;
+  aspect-ratio: 16 / 9;
+  position: relative;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Close button */
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: -100px;
+  background: transparent;
+  color: #fff;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Placeholder content */
+.video-placeholder {
+  color: #fff;
+  font-size: 64px;
+  text-align: center;
+}
+
+.video-placeholder p {
+  font-size: 16px;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
 /* ouroffice-section */
 .ouroffice-section {
   display: grid;

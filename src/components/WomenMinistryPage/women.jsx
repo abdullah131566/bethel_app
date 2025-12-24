@@ -11,9 +11,19 @@ import Image from "next/image";
 export default function WomenMinistryPage() {
   const router = useRouter();
 
+  // const navigateToReadMore = () => {
+  //   router.push("#baptism-container");
+  // };
+
   const navigateToReadMore = () => {
-    router.push("#baptism-container");
-  };
+  const section = document.getElementById("baptism-container");
+  if (section) {
+    section.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }
+};
 
   return (
     <Container fluid className="local-main-wrapper">
@@ -202,7 +212,8 @@ export default function WomenMinistryPage() {
       {/* Section 5 */}
       <Container fluid className="local-wrapper-final">
         <div className="section2-heading lazy-appear3 text-white">
-          <h2>Ladies Seminar&apos; Faisalabad</h2>
+          {/* <h2>Ladies Seminar&apos; Faisalabad</h2> */}
+          <h2>Ladies Seminar & Conferences</h2>
         </div>
 
         <Row className="lazy-appear5">

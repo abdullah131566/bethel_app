@@ -6,6 +6,10 @@ import ImageSlider from "@/components/General/ImageSlider";
 import { useRouter } from "next/router";
 import AnimatedText from "./animated";
 
+import thirdecumenical1 from "@/source/Local/thirdecumenicalconference/1.jpeg";
+import thirdecumenical2 from "@/source/Local/thirdecumenicalconference/2.jpeg";
+import thirdecumenical3 from "@/source/Local/thirdecumenicalconference/3.jpeg";
+
 import baptism1 from "@/source/Local/Baptism/BAPTISM/1.jpg";
 import baptism2 from "@/source/Local/Baptism/BAPTISM/2.jpg";
 import baptism3 from "@/source/Local/Baptism/BAPTISM/3.jpg";
@@ -126,34 +130,17 @@ export default function LocalPage() {
       {/* Section 2 */}
       <Container fluid className="local-wrapper2">
         <div className="section2-heading lazy-appear3">
-          <h2>BAPTISM</h2>
+          <h2>Third Ecumenical Conference for Theologically Trained Women 2024 </h2>
         </div>
 
         <Row className="lazy-appear5">
           <Col md={6} className="local-col1 lazy-appear1">
             <ImageSlider time={3500} transitionDuration={"1s"}>
-              <img src={baptism1.src} alt="" />
-              <img src={baptism2.src} alt="" />
-              <img src={baptism3.src} alt="" />
-              <img src={baptism4.src} alt="" />
-              <img src={baptism5.src} alt="" />
-              <img src={baptism6.src} alt="" />
-
-              <img src={baptism7.src} alt="" />
-              <img src={baptism8.src} alt="" />
-              <img src={baptism9.src} alt="" />
-              <img src={baptism10.src} alt="" />
-              <img src={baptism11.src} alt="" />
-              <img src={baptism12.src} alt="" />
-              <img src={baptism13.src} alt="" />
-              <img src={baptism14.src} alt="" />
-              <img src={baptism15.src} alt="" />
-              <img src={baptism16.src} alt="" />
-              <img src={baptism17.src} alt="" />
-              <img src={baptism18.src} alt="" />
-              <img src={baptism19.src} alt="" />
-              <img src={baptism20.src} alt="" />
-              <img src={baptism21.src} alt="" />
+              <img src={thirdecumenical1.src} alt="" />
+              <img src={thirdecumenical2.src} alt="" />
+              <img src={thirdecumenical3.src} alt="" />
+              
+              
             </ImageSlider>{" "}
             <p className="baptism-txt-src text-center">
               <i>Baptism Sources</i>
@@ -161,15 +148,13 @@ export default function LocalPage() {
           </Col>
           <Col md={6} className="baptism-text-container lazy-appear2 local-col">
             <p className="baptism-txt">
-              This section offers insight into the practice of baptism across
-              different denominations, it&apos;s historical origins, and its
-              significance in contemporary worship. Learn about the theological
-              differences between infant baptism and believers baptism, the
-              preparation processes involved for candidates and their families,
-              and the various customs and celebrations associated with this
-              sacred ceremony.
+              The Third Ecumenical Conference for Theologically Trained Women was held in 2024 
+              under the theme “Building the Church.” The session reflected on the biblical account
+              of Deborah and Barak, highlighting how men and women are called to work together in
+              obedience, leadership, and faith for the building of Christ’s Church.
+
             </p>
-            <br />
+            {/* <br />
 
             <p className="baptism-txt">
               Baptism is a significant rite of passage in many Christian
@@ -177,8 +162,8 @@ export default function LocalPage() {
               individual&apos;s admission into the faith community. It can be
               performed through sprinkling, pouring, or immersion, and is often
               considered a sacrament—a visible sign of an inward grace.
-            </p>
-            <button
+            </p> */}
+            {/* <button
               className="baptism-btn lazy-appear6"
               onClick={navigateToReadMore}
             >
@@ -186,10 +171,12 @@ export default function LocalPage() {
               <span></span>
               <span></span>
               <span></span>
-            </button>
+            </button> */}
           </Col>
         </Row>
       </Container>
+
+      
 
       {/* Section 3 MARWARI TRIBE */}
       <Container fluid className="local-wrapper3">
@@ -220,12 +207,12 @@ export default function LocalPage() {
               folklore, and the challenges faced by the Marwari community in
               modern times will also be featured.
             </p>
-            <button className=" lazy-appear6" onClick={navigateToReadMore}>
+            {/* <button className=" lazy-appear6" onClick={navigateToReadMore}>
               Read More.. <span></span>
               <span></span>
               <span></span>
               <span></span>
-            </button>
+            </button> */}
           </Col>
           <Col md={6} className="local-col1 lazy-appear1">
             <ImageSlider time={3500} transitionDuration={"1s"}>
@@ -261,6 +248,8 @@ export default function LocalPage() {
           </Col>
         </Row>
       </Container>
+
+      
 
       {/* Section 4 KELASH TRIBE
        */}
@@ -317,7 +306,7 @@ export default function LocalPage() {
               examine the impact of tourism on their society and the steps being
               taken to protect their culture.
             </p>
-            <button
+            {/* <button
               className="baptism-btn lazy-appear6"
               onClick={navigateToReadMore}
             >
@@ -325,16 +314,15 @@ export default function LocalPage() {
               <span></span>
               <span></span>
               <span></span>
-            </button>
+            </button> */}
           </Col>
         </Row>
       </Container>
 
-      {/* Section 5 BRICK KILNS
-       */}
-      <Container fluid className="local-wrapper-final">
+
+       <Container fluid className="local-wrapper3">
         <div className="section2-heading lazy-appear3 text-white">
-          <h2>BRICK KILNS</h2>
+          <h2>BAPTISM</h2>
         </div>
 
         <Row className="lazy-appear5">
@@ -342,6 +330,93 @@ export default function LocalPage() {
             md={6}
             className="baptism-text-container lazy-appear2 text-white local-col"
           >
+            <p className="baptism-txt">
+              This section offers insight into the practice of baptism across
+              different denominations, it&apos;s historical origins, and its
+              significance in contemporary worship. Learn about the theological
+              differences between infant baptism and believers baptism, the
+              preparation processes involved for candidates and their families,
+              and the various customs and celebrations associated with this
+              sacred ceremony.
+            </p>
+            <br />
+
+            <p className="baptism-txt">
+              Baptism is a significant rite of passage in many Christian
+              traditions, symbolizing the washing away of sin and the
+              individual&apos;s admission into the faith community. It can be
+              performed through sprinkling, pouring, or immersion, and is often
+              considered a sacrament—a visible sign of an inward grace.
+            </p>
+            {/* <button className=" lazy-appear6" onClick={navigateToReadMore}>
+              Read More.. <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </button> */}
+          </Col>
+          <Col md={6} className="local-col1 lazy-appear1">
+            <ImageSlider time={3500} transitionDuration={"1s"}>
+              <img src={baptism1.src} alt="" />
+              <img src={baptism2.src} alt="" />
+              <img src={baptism3.src} alt="" />
+              <img src={baptism4.src} alt="" />
+              <img src={baptism5.src} alt="" />
+              <img src={baptism6.src} alt="" />
+
+              <img src={baptism7.src} alt="" />
+              <img src={baptism8.src} alt="" />
+              <img src={baptism9.src} alt="" />
+              <img src={baptism10.src} alt="" />
+              <img src={baptism11.src} alt="" />
+              <img src={baptism12.src} alt="" />
+              <img src={baptism13.src} alt="" />
+              <img src={baptism14.src} alt="" />
+              <img src={baptism15.src} alt="" />
+              <img src={baptism16.src} alt="" />
+              <img src={baptism17.src} alt="" />
+              <img src={baptism18.src} alt="" />
+              <img src={baptism19.src} alt="" />
+              <img src={baptism20.src} alt="" />
+              <img src={baptism21.src} alt="" />
+            </ImageSlider>{" "}
+            <p className="baptism-txt-src text-white text-center">
+              <i>Baptism Sources</i>
+            </p>
+          </Col>
+        </Row>
+      </Container>
+
+
+      {/* Section 5 BRICK KILNS
+       */}
+      
+
+      <Container fluid className="local-wrapper2">
+        <div className="section2-heading lazy-appear3">
+          <h2> BRICK KILNS</h2>
+        </div>
+
+        <Row className="lazy-appear5">
+          <Col md={6} className="local-col1 lazy-appear1">
+            <ImageSlider time={3500} transitionDuration={"1s"}>
+              <img src={kiln1.src} alt="" />
+              <img src={kiln2.src} alt="" />
+              <img src={kiln3.src} alt="" />
+              <img src={kiln4.src} alt="" />
+              <img src={kiln5.src} alt="" />
+              <img src={kiln6.src} alt="" />
+              <img src={kiln7.src} alt="" />
+              <img src={kiln8.src} alt="" />
+              <img src={kiln9.src} alt="" />
+              <img src={kiln10.src} alt="" />
+              <img src={kiln11.src} alt="" />
+            </ImageSlider>{" "}
+            <p className="baptism-txt-src text-center">
+              <i>Marwari Tribe Sources*</i>
+            </p>
+          </Col>
+          <Col md={6} className="baptism-text-container lazy-appear2 local-col">
             <p className="baptism-txt">
               Brick kilns are one of the oldest manufacturing facilities that
               produce bricks, a fundamental building material. They operate
@@ -362,33 +437,25 @@ export default function LocalPage() {
               address the advocacy for fair labor practices and the future of
               brick manufacturing in an eco-conscious world.
             </p>
-            <button className=" lazy-appear6" onClick={navigateToReadMore}>
+            {/* <button
+              className="baptism-btn lazy-appear6"
+              onClick={navigateToReadMore}
+            >
               Read More.. <span></span>
               <span></span>
               <span></span>
               <span></span>
-            </button>
-          </Col>
-          <Col md={6} className="local-col1 lazy-appear1">
-            <ImageSlider time={3500} transitionDuration={"1s"}>
-              <img src={kiln1.src} alt="" />
-              <img src={kiln2.src} alt="" />
-              <img src={kiln3.src} alt="" />
-              <img src={kiln4.src} alt="" />
-              <img src={kiln5.src} alt="" />
-              <img src={kiln6.src} alt="" />
-              <img src={kiln7.src} alt="" />
-              <img src={kiln8.src} alt="" />
-              <img src={kiln9.src} alt="" />
-              <img src={kiln10.src} alt="" />
-              <img src={kiln11.src} alt="" />
-            </ImageSlider>{" "}
-            <p className="baptism-txt-src text-white text-center">
-              <i>Marwari Tribe Sources*</i>
-            </p>
+            </button> */}
           </Col>
         </Row>
       </Container>
+
+      
+
+      
+      
+
+      
 
       <AnimatedText />
     </Container>
