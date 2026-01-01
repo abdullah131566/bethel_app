@@ -205,6 +205,36 @@
   padding: 10px 0px;
   /* font-family: "satisfy"; */
 }
+/* ===== INLINE SECTION HEADING (ABOVE TEXT) ===== */
+
+.inline-section-heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  font-family: "Open Sans";
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+/* alignment helpers */
+.inline-section-heading.left {
+  text-align: left;
+  text-align: center;
+}
+
+.inline-section-heading.right {
+  text-align: right;
+  text-align: center;
+  /* margin-left: auto; */
+  /* margin-top: 20px; */
+}
+
+/* white text variant */
+.inline-section-heading.white {
+  color: white;
+}
+
 .baptism-txt {
   max-width: 80%;
   font-size: 16px !important;
@@ -353,6 +383,46 @@ button span:nth-child(4) {
   text-align: center;
   color: white;
 }
+
+/* ===== SIMPLE HOVER BUTTON (LOCAL PAGE ONLY) ===== */
+
+.local-simple-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* disable cloud animation spans */
+.local-simple-btn span {
+  display: none;
+}
+
+/* hover effect */
+.local-simple-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+/* ===== PUSH TEXT DOWN IN BLACK SECTIONS ===== */
+
+.local-wrapper3 .baptism-text-container,
+.local-wrapper-final .baptism-text-container {
+  padding-top: 40px;
+}
+/* ===== IMAGE SLIDER — WHITE SECTIONS ===== */
+
+.local-wrapper2 .local-col1 {
+  margin-top: 60px;
+}
+/* ===== IMAGE SLIDER — BLACK SECTIONS ===== */
+
+.local-wrapper3 .local-col1,
+.local-wrapper-final .local-col1 {
+  margin-top: 50px;
+}
+
+
 
 @media screen and (max-width: 465px) {
   .baptism-text-container {

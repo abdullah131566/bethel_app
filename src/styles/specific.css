@@ -370,11 +370,12 @@ li:hover .my-dropdown {
 /* Send button (blue gradient) */
 .send-btn {
   margin-top: 12px;
-  background: linear-gradient(90deg,#68030c,#68030c);
+  background: rgb(20, 19, 19);
   border: none;
   color: #fff;
+  border: 1px solid;
   /* padding: 0px; */
-  padding: 12px 24px;
+  padding: 8px 20px;
 
   border-radius: 10px;
   font-weight: 700;
@@ -395,8 +396,12 @@ li:hover .my-dropdown {
 }
 .send-btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 30px rgba(146, 32, 3, 0.14);
-  color: #fff !important;
+  /* box-shadow: 0 10px 30px rgba(146, 32, 3, 0.14); */
+  /* color: #fff !important; */
+  background: white;
+  color: black;
+  /* border: 1px solid black; */
+
 }
 
 /* resources section */
@@ -501,6 +506,35 @@ li:hover .my-dropdown {
 .hero-section .verse {
   font-size: max(5vw, 40px);
 }
+
+.hero-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Video styling */
+.hero-video {
+   
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  /* object-fit: contain; NO CROPPING */
+  object-fit: fill;
+  background-color: black;
+}
+
+/* Optional overlay content */
+.hero-section .content-container {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+}
+
 
 /* vision statement section */
 .vision-statement-section {
@@ -626,7 +660,7 @@ li:hover .my-dropdown {
 }
 
 /* statement of faith- */
-.statementoffaith-section {
+/* .statementoffaith-section {
   background: linear-gradient(
     81deg,
     rgba(0, 0, 0, 1) 0%,
@@ -636,13 +670,47 @@ li:hover .my-dropdown {
     rgba(0, 0, 0, 1) 64%,
     rgba(0, 0, 0, 1) 100%
   );
+} */
+
+.statementoffaith-section {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
 }
+
+/* overlay */
+/* .statementoffaith-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    81deg,
+    rgba(0, 0, 0, 0.95) 0%,
+    rgba(0, 0, 0, 0.95) 32%,
+    rgba(120, 0, 0, 0.85) 45%,
+    rgba(180, 5, 5, 0.85) 52%,
+    rgba(0, 0, 0, 0.95) 64%,
+    rgba(0, 0, 0, 0.95) 100%
+  );
+  z-index: 0;
+} */
+
+/* text above overlay */
+.statementoffaith-section > * {
+  position: relative;
+  z-index: 1;
+}
+
 .statementoffaith-section > .heading {
   font-size: 45px;
   margin-bottom: 20px;
+  color: #eaeaea;
 }
 .statementoffaith-section li {
   margin-bottom: 14px;
+   color: #eaeaea;
 }
 
 /* empoweringchurch-section */
@@ -660,6 +728,10 @@ li:hover .my-dropdown {
   padding-top: 14px;
   padding-bottom: 40px;
   width: 70%;
+}
+/* Force rectangular shape for Empowering Church button */
+.empoweringchurch .square-btn {
+  border-radius: 0 !important;
 }
 
 /* Overlay background */
@@ -700,6 +772,7 @@ li:hover .my-dropdown {
   font-size: 24px;
   border: none;
   cursor: pointer;
+  /* border-radius: 0px; */
 }
 
 /* Placeholder content */
@@ -736,4 +809,24 @@ li:hover .my-dropdown {
   background-image: url('https://roshanrah.blob.core.windows.net/bethel/Women Ministry/W1.png');
   background-size: cover;
   background-position: 40% center;
+}
+
+/* ===== SIMPLE HOVER BUTTON (LOCAL PAGE ONLY) ===== */
+
+.local-simple-btn {
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* disable cloud animation spans */
+.local-simple-btn span {
+  display: none;
+}
+
+/* hover effect */
+.local-simple-btn:hover {
+  background-color: white;
+  color: black;
 }

@@ -13,7 +13,8 @@ const MinistriesSection = () => {
       <h2 className="quote relative">
         Unreached people groups <br /> hearing the Gospel message
       </h2>
-      <a href="/ministries" className="btn-paddings theme-bg-light to-dark-bg border1-light smooth-transition no-outline pointer">
+      <a href="/ministries" className="btn-paddings theme-bg-dark to-light-bg border1-light smooth-transition no-outline pointer">
+      
         Connect with a Ministry
       </a>
     </section>

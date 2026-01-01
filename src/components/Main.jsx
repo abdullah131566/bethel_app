@@ -16,8 +16,10 @@ const Main = () => {
       <MinistriesSection />
       <WhatWeDoSection />
       <VisionBehindBethelSection />
+      
       <StatementOfFaithSection />
       <EmpoweringChurchSection />
+      
       <OurOfficeSection />
     </main>
   );

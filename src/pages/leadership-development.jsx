@@ -296,6 +296,8 @@ const About = () => {
             </div>
             <div className="style-302"></div>
         </div>
+        <div className="page-clear"></div>
+
     </>
   );
 };

@@ -102,7 +102,7 @@ export default function GlobalPage() {
           to find your fascinating.
         </div>
         <br />
-        <button className="lazy-appear6" onClick={navigateToReadMore}>
+        <button className="lazy-appear6 local-simple-btn" onClick={navigateToReadMore}>
           Read More.. <span></span>
           <span></span>
           <span></span>
@@ -112,9 +112,9 @@ export default function GlobalPage() {
 
       {/* Section 2 */}
       <Container fluid className="local-wrapper2">
-        <div className="section2-heading lazy-appear3">
+        {/* <div className="section2-heading lazy-appear3">
           <h2>Spanish Church Visit - USA 2024</h2>
-        </div>
+        </div> */}
 
         <Row className="lazy-appear5">
           <Col md={6} className="local-col1 lazy-appear1">
@@ -131,6 +131,9 @@ export default function GlobalPage() {
             </p>
           </Col>
           <Col md={6} className="baptism-text-container lazy-appear2 local-col">
+           <h2 className="inline-section-heading right lazy-appear3">
+              Spanish Church Visit - USA 2024
+            </h2>
             <p className="baptism-txt">
               During the 2024 USA trip, I was given the opportunity to visit and preach at a 
               Spanish-speaking church. This ministry moment came during a deeply difficult time,
@@ -159,15 +162,18 @@ export default function GlobalPage() {
 
       {/* Section 3 MARWARI TRIBE */}
       <Container fluid className="local-wrapper3">
-        <div className="section2-heading lazy-appear3 text-white">
+        {/* <div className="section2-heading lazy-appear3 text-white">
           <h2>Asian Evangelical Alliance Women’s Conference</h2>
-        </div>
+        </div> */}
 
         <Row className="lazy-appear5">
           <Col
             md={6}
             className="baptism-text-container lazy-appear2 text-white local-col"
           >
+            <h2 className="inline-section-heading left white lazy-appear3">
+              Asian Evangelical Alliance Women’s Conference
+            </h2>
             <p className="baptism-txt">
               This conference, organized by the Asian Evangelical Alliance, was the first in-person
               gathering held after COVID. Centered on the theme “Arise and Shine,” the conference
@@ -206,9 +212,9 @@ export default function GlobalPage() {
       </Container>
 
       <Container fluid className="local-wrapper2">
-        <div className="section2-heading lazy-appear3">
+        {/* <div className="section2-heading lazy-appear3">
           <h2>CAPE TOWN 2011</h2>
-        </div>
+        </div> */}
 
         <Row className="lazy-appear5">
           <Col md={6} className="local-col1 lazy-appear1">
@@ -228,6 +234,9 @@ export default function GlobalPage() {
             </p>
           </Col>
           <Col md={6} className="baptism-text-container lazy-appear2 local-col">
+          <h2 className="inline-section-heading right lazy-appear3">
+            CAPE TOWN 2011
+          </h2>
             <p className="baptism-txt">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
               nec nisi ut libero fermentum fermentum. Integer convallis ex quis
@@ -267,15 +276,18 @@ export default function GlobalPage() {
 
       {/* Section 3 MARWARI TRIBE */}
       <Container fluid className="local-wrapper3">
-        <div className="section2-heading lazy-appear3 text-white">
+        {/* <div className="section2-heading lazy-appear3 text-white">
           <h2>SINGAPORE TRIP 2014</h2>
-        </div>
+        </div> */}
 
         <Row className="lazy-appear5">
           <Col
             md={6}
             className="baptism-text-container lazy-appear2 text-white local-col"
           >
+            <h2 className="inline-section-heading left white lazy-appear3">
+              SINGAPORE TRIP 2014
+            </h2>
             <p className="baptism-txt">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
               nec nisi ut libero fermentum fermentum. Integer convallis ex quis
@@ -300,12 +312,12 @@ export default function GlobalPage() {
               habitasse platea dictumst. Quisque auctor turpis nec justo congue,
               sit amet eleifend lacus efficitur.
             </p>
-            <button className=" lazy-appear6" onClick={navigateToReadMore}>
+            {/* <button className=" lazy-appear6" onClick={navigateToReadMore}>
               Read More.. <span></span>
               <span></span>
               <span></span>
               <span></span>
-            </button>
+            </button> */}
           </Col>
           <Col md={6} className="local-col1 lazy-appear1">
             <ImageSlider time={3500} transitionDuration={"1s"}>
@@ -328,9 +340,9 @@ export default function GlobalPage() {
       {/* Section 4 KELASH TRIBE
        */}
       <Container fluid className="local-wrapper2">
-        <div className="section2-heading lazy-appear3">
+        {/* <div className="section2-heading lazy-appear3">
           <h2> CAPE TOWN 2014</h2>
-        </div>
+        </div> */}
 
         <Row className="lazy-appear5">
           <Col md={6} className="local-col1 lazy-appear1">
@@ -358,6 +370,10 @@ export default function GlobalPage() {
             </p>
           </Col>
           <Col md={6} className="baptism-text-container lazy-appear2 local-col">
+          <h2 className="inline-section-heading right lazy-appear3">
+            CAPE TOWN 2014
+          </h2>
+
             <p className="baptism-txt">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
               nec nisi ut libero fermentum fermentum. Integer convallis ex quis
@@ -396,15 +412,18 @@ export default function GlobalPage() {
       </Container>
 
        <Container fluid className="local-wrapper3">
-        <div className="section2-heading lazy-appear3 text-white">
+        {/* <div className="section2-heading lazy-appear3 text-white">
           <h2>NAMBIBIA TOUR</h2>
-        </div>
+        </div> */}
 
         <Row className="lazy-appear5">
           <Col
             md={6}
             className="baptism-text-container lazy-appear2 text-white local-col"
           >
+            <h2 className="inline-section-heading left white lazy-appear3">
+              NAMBIBIA TOUR
+            </h2>
             <p className="baptism-txt">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec nisi ut libero 
               fermentum fermentum. Integer convallis ex quis sodales ultricies. Ut euismod, ante a 
@@ -451,9 +470,9 @@ export default function GlobalPage() {
       {/* Section 5 BRICK KILNS
        */}
       <Container fluid className="local-wrapper2">
-        <div className="section2-heading lazy-appear3">
+        {/* <div className="section2-heading lazy-appear3">
           <h2>Women Together Asia Conference</h2>
-        </div>
+        </div> */}
 
         <Row className="lazy-appear5">
           <Col md={6} className="local-col1 lazy-appear1">
@@ -473,6 +492,9 @@ export default function GlobalPage() {
             </p>
           </Col>
           <Col md={6} className="baptism-text-container lazy-appear2 local-col">
+           <h2 className="inline-section-heading right lazy-appear3">
+              Women Together Asia Conference
+            </h2>
             <p className="baptism-txt">
               This conference marked our first gathering in collaboration with Women Together Asia, 
               working alongside Dr. Susan Chan. The event brought together 50 women leaders from 12

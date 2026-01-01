@@ -81,6 +81,11 @@ const Header = () => {
               Brick Kiln Rescue Mission
             </Link>
           </li>
+          <li className="nav-item lazy-appear5 hover-underline-animation">
+            <Link className="header-link" href="/contact">
+              Give
+            </Link>
+          </li>
         </ul>
       </nav>
 

@@ -119,7 +119,11 @@ export default function LocalPage() {
           to find your fascinating.
         </div>
         <br />
-        <button className="lazy-appear6" onClick={navigateToReadMore}>
+        <button
+          className="lazy-appear6 local-simple-btn"
+          onClick={navigateToReadMore}
+        >
+
           Learn More.. <span></span>
           <span></span>
           <span></span>
@@ -129,12 +133,13 @@ export default function LocalPage() {
 
       {/* Section 2 */}
       <Container fluid className="local-wrapper2">
-        <div className="section2-heading lazy-appear3">
+        {/* <div className="section2-heading lazy-appear3">
           <h2>Third Ecumenical Conference for Theologically Trained Women 2024 </h2>
-        </div>
+        </div> */}
 
         <Row className="lazy-appear5">
           <Col md={6} className="local-col1 lazy-appear1">
+
             <ImageSlider time={3500} transitionDuration={"1s"}>
               <img src={thirdecumenical1.src} alt="" />
               <img src={thirdecumenical2.src} alt="" />
@@ -147,6 +152,9 @@ export default function LocalPage() {
             </p>
           </Col>
           <Col md={6} className="baptism-text-container lazy-appear2 local-col">
+           <h2 className="inline-section-heading right lazy-appear3">
+              Third Ecumenical Conference for Theologically Trained Women 2024
+            </h2>
             <p className="baptism-txt">
               The Third Ecumenical Conference for Theologically Trained Women was held in 2024 
               under the theme “Building the Church.” The session reflected on the biblical account
@@ -180,15 +188,18 @@ export default function LocalPage() {
 
       {/* Section 3 MARWARI TRIBE */}
       <Container fluid className="local-wrapper3">
-        <div className="section2-heading lazy-appear3 text-white">
+        {/* <div className="section2-heading lazy-appear3 text-white">
           <h2>MARWARI TRIBE</h2>
-        </div>
+        </div> */}
 
         <Row className="lazy-appear5">
           <Col
             md={6}
             className="baptism-text-container lazy-appear2 text-white local-col"
           >
+            <h2 className="inline-section-heading left white lazy-appear3">
+              MARWARI TRIBE
+            </h2>
             <p className="baptism-txt">
               The Marwari tribe is an ethnolinguistic group primarily from the
               Rajasthan region in India, known for their rich cultural heritage,
@@ -254,9 +265,9 @@ export default function LocalPage() {
       {/* Section 4 KELASH TRIBE
        */}
       <Container fluid className="local-wrapper2">
-        <div className="section2-heading lazy-appear3">
+        {/* <div className="section2-heading lazy-appear3">
           <h2> KELASH TRIBE</h2>
-        </div>
+        </div> */}
 
         <Row className="lazy-appear5">
           <Col md={6} className="local-col1 lazy-appear1">
@@ -288,6 +299,9 @@ export default function LocalPage() {
             </p>
           </Col>
           <Col md={6} className="baptism-text-container lazy-appear2 local-col">
+          <h2 className="inline-section-heading right lazy-appear3">
+            KELASH TRIBE
+          </h2>
             <p className="baptism-txt">
               The Kalash or Kalasha, are a unique indigenous people residing in
               the Chitral district of Pakistan. They are known for their
@@ -321,15 +335,18 @@ export default function LocalPage() {
 
 
        <Container fluid className="local-wrapper3">
-        <div className="section2-heading lazy-appear3 text-white">
+        {/* <div className="section2-heading lazy-appear3 text-white">
           <h2>BAPTISM</h2>
-        </div>
+        </div> */}
 
         <Row className="lazy-appear5">
           <Col
             md={6}
             className="baptism-text-container lazy-appear2 text-white local-col"
           >
+             <h2 className="inline-section-heading left white lazy-appear3">
+                BAPTISM
+            </h2>
             <p className="baptism-txt">
               This section offers insight into the practice of baptism across
               different denominations, it&apos;s historical origins, and its
@@ -393,9 +410,9 @@ export default function LocalPage() {
       
 
       <Container fluid className="local-wrapper2">
-        <div className="section2-heading lazy-appear3">
+        {/* <div className="section2-heading lazy-appear3">
           <h2> BRICK KILNS</h2>
-        </div>
+        </div> */}
 
         <Row className="lazy-appear5">
           <Col md={6} className="local-col1 lazy-appear1">
@@ -417,6 +434,9 @@ export default function LocalPage() {
             </p>
           </Col>
           <Col md={6} className="baptism-text-container lazy-appear2 local-col">
+           <h2 className="inline-section-heading right lazy-appear3">
+               BRICK KILNS
+            </h2>
             <p className="baptism-txt">
               Brick kilns are one of the oldest manufacturing facilities that
               produce bricks, a fundamental building material. They operate

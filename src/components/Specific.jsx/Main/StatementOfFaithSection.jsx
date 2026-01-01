@@ -2,7 +2,14 @@ import React from "react";
 
 const StatementOfFaithSection = () => {
   return (
-    <section className="section theme-bg-dark statementoffaith-section">
+    // <section className="section theme-bg-dark statementoffaith-section">
+    <section
+      className="section statementoffaith-section"
+      style={{
+        backgroundImage: `url(${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/statement-faith.jpg)`
+      }}
+    >
+
       <h2 className="heading">Statement of faith</h2>
       <ol>
         <li>

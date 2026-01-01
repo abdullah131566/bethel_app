@@ -102,8 +102,10 @@
 // // export default CompassionHeroSection;
 
 
-import React from "react";
+// import React from "react";
 import Image from "next/image";
+// import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import compassionImg from "../source/compassionnrelief-hero-image.png"; // replace if needed
 import img1 from "@/source/whatwedo_img1.jpeg"
 import img2 from "@/source/whatwedo_img2.jpeg"
@@ -145,10 +147,91 @@ import practicalimg8 from "@/source/practicalsupport/8.jpg"
 import practicalimg9 from "@/source/practicalsupport/9.jpg"
 import practicalimg10 from "@/source/practicalsupport/10.jpg"
 
+import getinvolvedimg1 from "@/source/getinvolved/1.jpg"
+import getinvolvedimg2 from "@/source/getinvolved/2.jpg"
+import getinvolvedimg3 from "@/source/getinvolved/3.jpeg"
+import getinvolvedimg4 from "@/source/getinvolved/4.jpeg"
+import getinvolvedimg5 from "@/source/getinvolved/5.jpeg"
+
+// import { useEffect, useState } from "react";
+
 
 
 
 const CompassionAndRelief = () => {
+  // for the slider section
+  const [sliderIndex, setSliderIndex] = useState(0);
+  const slides = [
+  covidimg1,
+  covidimg2,
+  covidimg3,
+  dengueimg1,
+  dengueimg2,
+  dengueimg3,
+  floodimg1,
+  floodimg2,
+  floodimg3,
+  getinvolvedimg1,
+  getinvolvedimg2,
+  getinvolvedimg3,
+];
+
+const visibleSlides = 3;
+const extendedSlides = [...slides, ...slides.slice(0, visibleSlides)];
+
+
+// useEffect(() => {
+//   const interval = setInterval(() => {
+//     setSliderIndex((prev) =>
+//       prev === 6 - 3 ? 0 : prev + 1
+//     );
+//   }, 3000);
+
+//   return () => clearInterval(interval);
+// }, []);
+useEffect(() => {
+  const interval = setInterval(() => {
+    setSliderIndex((prev) => prev + 1);
+  }, 3500);
+
+  return () => clearInterval(interval);
+}, []);
+
+useEffect(() => {
+  const track = document.querySelector(".cr-auto-slider-track");
+
+  if (!track) return;
+
+  if (sliderIndex === slides.length) {
+    // wait for animation to finish
+    setTimeout(() => {
+      track.style.transition = "none";
+      setSliderIndex(0);
+
+      requestAnimationFrame(() => {
+        track.style.transition = "transform 0.8s ease-in-out";
+      });
+    }, 800);
+  }
+}, [sliderIndex]);
+
+
+// useEffect(() => {
+//   if (sliderIndex === slides.length) {
+//     const track = document.querySelector(".cr-auto-slider-track");
+
+//     if (track) {
+//       track.style.transition = "none";
+//       setSliderIndex(0);
+
+//       requestAnimationFrame(() => {
+//         track.style.transition = "transform 0.8s ease-in-out";
+//       });
+//     }
+//   }
+// }, [sliderIndex]);
+
+
   return (
     <>
       {/* PAGE WRAPPER — REQUIRED */}
@@ -249,6 +332,48 @@ const CompassionAndRelief = () => {
             
           </div>
         </section>
+
+          {/* ================= COMPASSION STORY SECTION ================= */}
+        <section className="compassion-story-section">
+          <div className="compassion-story-image"></div>
+
+          <div className="compassion-story-content">
+            <p className="compassion-story-text">
+              Compassion and Relief Ministry was not part of our original vision when we
+              founded Bethel Evangelistic Organization in September 2009. Our focus was
+              missions, evangelism, church planting, leadership training, and
+              strengthening Christian families. But just a few months later, severe persecution in Gojra and Korian Village
+              left over 250 Christian homes burned and seven lives lost. At our mother
+              organization&apos;s request, we provided urgent support to the affected
+              families - marking the beginning of our Compassion and Relief Ministry.
+            </p>
+          </div>
+        </section>
+
+
+        {/* ================= AUTO IMAGE SLIDER SECTION ================= */}
+        <section className="cr-auto-slider-section">
+          <div
+            className="cr-auto-slider-track"
+            style={{
+              // transform: `translateX(-${sliderIndex * (100 / 3)}%)`,
+              // transform: `translateX(-${sliderIndex * (100 / visibleSlides)}%)`,
+              transform: `translateX(-${sliderIndex * (100 / visibleSlides)}vw)`,
+
+            }}
+          >
+           
+
+            {extendedSlides.map((img, index) => (
+            <div className="cr-auto-slide" key={index}>
+              <img src={img.src} alt={`compassion-slide-${index}`} />
+            </div>
+          ))}
+
+          </div>
+        </section>
+
+
 
         {/* ================= HEART BEHIND THE WORK SECTION ================= */}
         <section className="heart-section">
@@ -460,15 +585,56 @@ const CompassionAndRelief = () => {
           </div>
         </section>
 
+          {/* ================= OVER THE YEARS SECTION ================= */}
+        <section className="over-the-year-section">
+          <div className="over-the-year-image"></div>
+
+          <div className="over-the-year-content">
+            <h5 className="over-the-year-title">Over the Years</h5>
+            <p className="over-the-year-text">
+              This ministry has grown out of necessity and obedience.
+              Pakistan&apos;s frequent floods, earthquakes, and global crises
+              like COVID-19 created a rising need for practical help.
+              During these times, we provided essential support
+              including food, clothing, bedding, Medical aid, and
+              seasonal supplies.
+            </p>
+          </div>
+        </section>
+
+        {/* ================= HIGHLIGHT MESSAGE SECTION ================= */}
+        <section className="highlight-message-section">
+          <div className="highlight-message-box">
+            <span className="corner corner-left"></span>
+
+            <p className="highlight-message-text">
+              Another key reason for our ministry is the severe persecution of
+              Christians in Pakistan. Many believers have lost homes, possessions,
+              and churches. Through our Compassion and Relief Ministry, we provide
+              trauma care, counseling, prayer, and practical support, including
+              rebuilding homes and churches and supplying essential household needs.
+            </p>
+
+            <span className="corner corner-right"></span>
+          </div>
+        </section>
+
+
 
 
 
 
 
         {/* ================= SCRIPTURE BACKGROUND SECTION ================= */}
-        <section className="scripture-section"  style={{
-            backgroundImage: "url('/images/C2.jpg')",
-        }}>
+        <section className="scripture-section" 
+        //  style={{
+        //     backgroundImage: "url('/images/C2.jpg')",
+        // }}
+        style={{
+          backgroundImage: `url(${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/C2.jpg)`
+        }}
+
+        >
         <div className="scripture-overlay">
             <div className="scripture-content">
             <p className="scripture-quote">
@@ -491,6 +657,18 @@ const CompassionAndRelief = () => {
 
                 {/* ================= GET INVOLVED SECTION ================= */}
         <section className="get-involved-section">
+         {/* Centered background slider */}
+        <div className="get-involved-slider">
+          <ImageSlider time={3500} transitionDuration={"1s"}>
+            <img src={getinvolvedimg1.src} alt="getinvolved 2" />
+            <img src={getinvolvedimg2.src} alt="getinvolved 2" />
+            <img src={getinvolvedimg3.src} alt="getinvolved 3" />
+            <img src={getinvolvedimg4.src} alt="getinvolved 4" />
+            <img src={getinvolvedimg5.src} alt="getinvolved 5" />
+        
+            
+          </ImageSlider>
+        </div>
         <div className="get-involved-inner">
 
             <p className="get-involved-label">
@@ -507,12 +685,14 @@ const CompassionAndRelief = () => {
             Whether through prayer, partnership, or support, you can be part of this mission.
             </p>
 
-            <button className="get-involved-btn">
-            Schools →
-            </button>
+            <a className="btn-paddings theme-bg-dark to-light-bg border1-light smooth-transition no-outline pointer square-btn get-involved-donate">
+            Donate  →
+            </a>
 
         </div>
         </section>
+
+      
 
 
 

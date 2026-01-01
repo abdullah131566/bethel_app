@@ -42,10 +42,15 @@ const EmpoweringChurchSection = () => {
             expansion of the Kingdom of Our Lord Jesus Christ
           </p>
 
-          <button
+          {/* <button
             className="btn-paddings theme-bg-light to-dark-bg border1-light smooth-transition no-outline pointer"
             onClick={() => setShowVideo(true)}
+          > */}
+          <button
+            className="btn-paddings theme-bg-dark to-light-bg border1-light smooth-transition no-outline pointer square-btn"
+            onClick={() => setShowVideo(true)}
           >
+
             Learn More
           </button>
         </div>
@@ -65,6 +70,9 @@ const EmpoweringChurchSection = () => {
             >
               ✕
             </button>
+            {/* <a href="/vision-statement" className="btn-paddings theme-bg-dark to-light-bg border1-dark smooth-transition no-outline pointer">
+              Read More
+            </a> */}
 
             <div className="video-placeholder">
               ▶

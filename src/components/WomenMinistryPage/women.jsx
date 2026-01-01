@@ -43,7 +43,7 @@ export default function WomenMinistryPage() {
           discover their God-given calling and rise to impact their families, churches, and the world.
         </div>
         <br />
-        <button className="lazy-appear6" onClick={navigateToReadMore}>
+        <button className="lazy-appear6 local-simple-btn" onClick={navigateToReadMore}>
           See our Work <span></span>
           <span></span>
           <span></span>
@@ -53,9 +53,9 @@ export default function WomenMinistryPage() {
 
       {/* Section 2 */}
       <Container id='baptism-container' fluid className="local-wrapper2">
-        <div className="section2-heading lazy-appear3">
+        {/* <div className="section2-heading lazy-appear3">
           <h2>1st annual Women&apos;s Camp 2011</h2>
-        </div>
+        </div> */}
 
         <Row className="lazy-appear5">
           <Col md={6} className="local-col1 lazy-appear1">
@@ -95,6 +95,9 @@ export default function WomenMinistryPage() {
             </p>
           </Col>
           <Col md={6} className="baptism-text-container lazy-appear2 local-col">
+          <h2 className="inline-section-heading right lazy-appear3">
+            1st Annual Women&apos;s Camp 2011
+          </h2>
             <p className="baptism-txt">
               The <strong>1st Annual Women&apos;s Camp</strong> was held from <strong>25th to 28th March 2011</strong> in the scenic 
               hills of <strong>Camp Mubarak, Murree</strong>, and was organized by <strong>Women for Christ Pakistan</strong>. 
@@ -110,15 +113,23 @@ export default function WomenMinistryPage() {
 
       {/* Section 3 */}
       <Container fluid className="local-wrapper3">
-        <div className="section2-heading lazy-appear3 text-white">
+        {/* <div className="section2-heading lazy-appear3 text-white">
           <h2>Bahawalpur Sewing Centers</h2>
-        </div>
+        </div> */}
 
         <Row className="lazy-appear5">
           <Col
             md={6}
             className="baptism-text-container lazy-appear2 text-white local-col"
           >
+          <h2 className="inline-section-heading left white lazy-appear3">
+            Bahawalpur Sewing Centers
+          </h2>
+
+            
+
+            
+
             <p className="baptism-txt">
               In the heart of Bahawalpur, our sewing centers are transforming lives one stitch at a time. These centers 
               provide underprivileged women with practical tailoring skills, spiritual encouragement, and a pathway to economic 
@@ -159,9 +170,9 @@ export default function WomenMinistryPage() {
 
       {/* Section 4 */}
       <Container fluid className="local-wrapper2">
-        <div className="section2-heading lazy-appear3">
+        {/* <div className="section2-heading lazy-appear3">
           <h2>Mirpurkhas Sewing Centers</h2>
-        </div>
+        </div> */}
 
         <Row className="lazy-appear5">
           <Col md={6} className="local-col1 lazy-appear1">
@@ -191,6 +202,9 @@ export default function WomenMinistryPage() {
             </p>
           </Col>
           <Col md={6} className="baptism-text-container lazy-appear2 local-col">
+           <h2 className="inline-section-heading right lazy-appear3">
+            Mirpurkhas Sewing Centers
+          </h2>
             <p className="baptism-txt">
               In the city of Mirpurkhas, our sewing centers serve as a beacon of hope for women seeking 
               new beginnings. These centers offer more than vocational training—they provide a safe space 
@@ -211,17 +225,20 @@ export default function WomenMinistryPage() {
 
       {/* Section 5 */}
       <Container fluid className="local-wrapper-final">
-        <div className="section2-heading lazy-appear3 text-white">
+        {/* <div className="section2-heading lazy-appear3 text-white"> */}
           {/* <h2>Ladies Seminar&apos; Faisalabad</h2> */}
-          <h2>Ladies Seminar & Conferences</h2>
-        </div>
+          {/* <h2>Ladies Seminar & Conferences</h2>
+        </div> */}
 
         <Row className="lazy-appear5">
           <Col
             md={6}
             className="baptism-text-container lazy-appear2 text-white local-col"
           >
-            <p className="baptism-txt">
+             <h2 className="inline-section-heading left white lazy-appear3">
+              Ladies Seminar & Conferences
+            </h2>
+                      <p className="baptism-txt">
               Held in <strong>Faisalabad on 23rd March 2014</strong>, this special <strong>Ladies Seminar</strong> brought 
               together women from various local churches for a day of worship, teaching, and encouragement. The gathering 
               created space for women to be refreshed in God&apos;s presence and reminded of their value, calling, and influence 

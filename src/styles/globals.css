@@ -41,6 +41,26 @@ a {
     color-scheme: dark;
   }
 } */
+ /* ===== SIMPLE HOVER BUTTON (LOCAL PAGE ONLY) ===== */
+
+.local-simple-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* disable cloud animation spans */
+.local-simple-btn span {
+  display: none;
+}
+
+/* hover effect */
+.local-simple-btn:hover {
+  background-color: white;
+  color: black;
+}
+
 
 
 

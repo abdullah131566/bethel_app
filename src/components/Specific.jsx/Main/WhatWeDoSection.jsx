@@ -17,7 +17,7 @@ const WhatWeDoSection = () => {
         </ImageSlider>
       </div>
       <sub className="relative">
-        <h5 className="about relative">ABOUT</h5>
+        {/* <h5 className="about relative">ABOUT</h5> */}
         <h2 className="heading">What we do?</h2>
         <p className="">
           Our ultimate goal is to see lives transformed by the power of the
