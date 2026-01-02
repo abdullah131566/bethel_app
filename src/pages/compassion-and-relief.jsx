@@ -631,7 +631,7 @@ useEffect(() => {
         //     backgroundImage: "url('/images/C2.jpg')",
         // }}
         style={{
-          backgroundImage: `url(${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/C2.jpg)`
+          backgroundImage: `url(${process.env.NEXT_PUBLIC_BASE_PATH || ""}/Images/C2.jpg)`
         }}
 
         >

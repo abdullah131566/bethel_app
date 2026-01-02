@@ -563,7 +563,7 @@
 /* LEFT IMAGE */
 .compassion-story-image {
   flex: 0 0 51%; /* slightly more than half */
-  background-image: url("/images/compassion-story.jpg"); /* 👈 place image here */
+  background-image: url("/Images/compassion-story.jpg"); /* 👈 place image here */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -666,7 +666,7 @@
 /* LEFT IMAGE */
 .over-the-year-image {
   flex: 0 0 42%; /* slightly more than half */
-  background-image: url("/images/over-the-year.jpg"); /* 👈 place image here */
+  background-image: url('/Images/over-the-year.jpg'); /* 👈 place image here */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -735,7 +735,7 @@
 }
 .highlight-message-text {
   color: #ffffff;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.8;
   font-weight: 300;
   opacity: 0.95;

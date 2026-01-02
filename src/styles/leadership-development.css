@@ -1803,7 +1803,9 @@
 
 .style-115 {
     /* background-image: url('https://roshanrah.blob.core.windows.net/bethel/L1.png'); */
-    background-image: url('/images/leadership-hero-section.jpg');
+    background-image: url("/Images/leadership-hero-section.jpg");
+    
+
     background-position: center ;
     background-size: cover;
     background-attachment: scroll;

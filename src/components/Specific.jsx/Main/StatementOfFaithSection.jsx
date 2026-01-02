@@ -6,7 +6,7 @@ const StatementOfFaithSection = () => {
     <section
       className="section statementoffaith-section"
       style={{
-        backgroundImage: `url(${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/statement-faith.jpg)`
+        backgroundImage: `url(${process.env.NEXT_PUBLIC_BASE_PATH || ""}/Images/statement-faith.jpg)`
       }}
     >
 

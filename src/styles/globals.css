@@ -6,6 +6,8 @@
   --color-dark: #000;
   --color-text: #fff;
   --color-dim: rgb(192, 192, 192);
+  --base-path: "/bethel";
+
 }
 
 * {
