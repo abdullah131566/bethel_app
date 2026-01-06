@@ -8,6 +8,7 @@ import '@/styles/global-page.css';
 import '@/styles/women-ministry.css';
 import '@/styles/leadership-development.css';
 import "../styles/compassion-and-relief.css";
+import "../styles/give.css";
 import { Toaster } from "react-hot-toast";
 
 import Header from '../components/Header';

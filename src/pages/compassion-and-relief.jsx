@@ -619,7 +619,54 @@ useEffect(() => {
           </div>
         </section>
 
+        {/* ================= WE SERVE SECTION ================= */}
+        <section className="serve-section">
+          <div className="serve-inner">
 
+            {/* LEFT CONTENT */}
+            <div className="serve-content">
+                <span className="serve-line"></span>
+              
+
+              <div className="serve-text-wrapper">
+                <h2 className="serve-title">WE ALSO SERVE</h2>
+                
+
+                <p className="serve-text">
+                Refugee communities, mainly Afghan Refugees,
+                providing daily needs and support in times of
+                uncertainty. Today, Compassion and Relief
+                Ministry is a vital part of Bethel Evangelistic
+                Organization, standing with the suffering Church
+                and vulnerable communities during disasters and
+                persecution.
+                </p>
+              </div>
+            </div>
+
+            {/* RIGHT DESIGN IMAGE */}
+            {/* <div className="partner-image"></div> */}
+             <div className="serve-image2">
+                <ImageSlider time={3500} transitionDuration={"1s"}>
+                  <img src={dengueimg1.src} alt="dengue 1" />
+                  <img src={dengueimg2.src} alt="dengue 2" />
+                  <img src={dengueimg3.src} alt="dengue 3" />
+                  <img src={dengueimg4.src} alt="dengue 4" />
+                </ImageSlider>
+              </div>
+
+          </div>
+        </section>
+
+
+        {/* Pakistan Wave Section */}
+        <section className="pakistanWaveSection">
+          <img
+            src="../Images/pakistan-wave.jpg"
+            alt="Pakistan Flag Wave"
+            className="pakistanWaveImage"
+          />
+        </section>
 
 
 
@@ -631,7 +678,7 @@ useEffect(() => {
         //     backgroundImage: "url('/images/C2.jpg')",
         // }}
         style={{
-          backgroundImage: `url(${process.env.NEXT_PUBLIC_BASE_PATH || ""}/Images/C2.jpg)`
+          backgroundImage: `url(/Images/C2.jpg)`
         }}
 
         >

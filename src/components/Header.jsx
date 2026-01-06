@@ -82,7 +82,7 @@ const Header = () => {
             </Link>
           </li>
           <li className="nav-item lazy-appear5 hover-underline-animation">
-            <Link className="header-link" href="/contact">
+            <Link className="header-link" href="/give">
               Give
             </Link>
           </li>

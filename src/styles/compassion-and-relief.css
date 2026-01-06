@@ -762,3 +762,111 @@
 }
 
      
+/* ================= WE SERVE SECTION ================= */
+
+.serve-section {
+  width: 100%;
+  background-color: #0a0909;
+  padding: 70px 70px;
+  margin-bottom: -20px;
+}
+
+.serve-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 80px;
+  
+}
+
+/* LEFT CONTENT */
+.serve-content {
+  display: flex;
+  gap: 24px;
+  flex: 1;
+}
+
+/* Vertical line */
+.serve-line {
+  width: 2px;
+  background-color: #4b4b4b;
+  margin-top: 19px;
+}
+
+/* Text wrapper */
+.serve-text-wrapper {
+  max-width: 620px;
+}
+
+.serve-title {
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-bottom: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.serve-text {
+  font-size: 17px;
+  line-height: 1.75;
+  font-weight: 400;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+/* RIGHT DESIGN IMAGE */
+/* .serve-image { */
+  /* flex: 0 0 360px;
+  height: 460px;
+  background-image: url("/Images/partner-with-bethel.jpg"); replace image */
+  /* background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -100px;
+  margin-right: 10px
+} */
+.areas-row-wrapper.dark {
+  width: 100vw;
+  background: #000000;
+  margin-left: calc(-50vw + 50%);
+  /* margin-left: 30px; */
+}
+/* Proper reverse layout */
+.areas-row.reverse {
+  grid-template-columns: 1fr 1fr;
+  /* background: #000000; */
+  color: #eaeaea;
+  /* width: 100%; */
+  padding: 80px 24px;
+  
+}
+
+.serve-image2 {
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 520px;
+  height: 320px;            /* ✅ REQUIRED */
+  position: relative;       /* ✅ REQUIRED */
+  overflow: hidden; 
+  /* margin-right: -830px;  */
+}
+/* Pakistan Wave Section */
+.pakistanWaveSection {
+  width: 100%;
+  height: 325px; /* adjust ONLY if needed */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pakistanWaveImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
