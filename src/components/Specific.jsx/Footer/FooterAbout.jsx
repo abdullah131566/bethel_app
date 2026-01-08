@@ -13,10 +13,10 @@ const FooterAbout = (props) => {
 
   emailjs
     .sendForm(
-      "service_k4jx0tm",     // 🔴 replace
-      "template_qkih2ek",    // 🔴 replace
+      "service_k4jx0tm",    
+      "template_qkih2ek",    
       formRef.current,
-      "ZUI9mwI10_JBs4WRI"      // 🔴 replace
+      "ZUI9mwI10_JBs4WRI"   
     )
     .then(
       () => {
